@@ -124,6 +124,14 @@ body {
     /*margin-top: 2rem;*/
     margin: 2rem;
 }
+/* Mobile only */
+@media (max-width: 768px) {
+  .hero__buttons {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* 2 columns → 2x2 */
+  }
+}
+
 .btn-store {
     position: relative;
     display: inline-flex;
@@ -171,6 +179,19 @@ body {
     /*background: #4a4a4a;*/
     opacity: 1;
 }
+
+.btn-safari {
+    background: var(--gray);
+    /*color: var(--white);*/
+    color: #6d6d6d;
+    opacity: .8;
+}
+.btn-safari:hover {
+    /*background: #4a4a4a;*/
+    /*opacity: 1;*/
+}
+
+
 .badge-active, .badge-soon {
     position: absolute;
     top: -10px;
