@@ -222,10 +222,14 @@ body {
     padding: 8rem 1.5rem 4rem;
 }
 .hero__title {
-    font-size: 3rem;
-    font-weight: 900;
+    /*font-size: 3rem;*/
+    /*font-weight: 900;*/
     text-transform: lowercase;
     margin-bottom: 1rem;
+    display: flex;
+    justify-self: center;
+    font-size: 7rem;
+    font-weight: bolder;
 }
 .hero__subtitle {
     font-size: 1.875rem;
@@ -235,7 +239,7 @@ body {
 }
 @media (min-width: 768px) { 
     .hero__title { 
-        font-size: 4.5rem; 
+        /*font-size: 4.5rem; */
     } 
     .hero__subtitle { 
         font-size: 3rem; 

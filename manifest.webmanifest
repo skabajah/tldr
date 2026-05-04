@@ -1,7 +1,7 @@
 {
-  "name": "tl-dr",
-  "short_name": "tl-dr",
-  "description": "The fastest way to skim and summarize content.",
+  "name": "tl;dr",
+  "short_name": "tldr",
+  "description": "summarize any text using ai",
   "start_url": "/",
   "display": "standalone",
   "orientation": "portrait",
