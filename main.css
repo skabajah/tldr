@@ -14,7 +14,7 @@
  * Full license & terms: https://tl-dr.store/privacy.html
  */
 
-@import url('https://fonts.googleapis.com/css2?family=Abel&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abel&family=Candal&display=swap');
 
 :root {
     --yellow: #f3d175;
@@ -100,10 +100,12 @@ body {
      object-fit: contain; 
     }
 .icon--lg { 
-    width: 6rem;
+    /*width: 6rem;*/
     object-fit: contain;
     display: inline-block;
     vertical-align: middle;
+    margin: 0 -1.5rem;
+    height: 8rem;
 
 }
 .icon--xs { 
@@ -245,6 +247,7 @@ body {
     justify-self: center;
     font-size: 7rem;
     font-weight: bolder;
+    font-family: 'Candal';
 }
 .hero__subtitle {
     font-size: 1.875rem;
