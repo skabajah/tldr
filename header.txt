@@ -1,9 +1,9 @@
 /**
- * tl;dr| summarize any text using ai
+ * tl-dr | AI summaries, zero friction
  * 
- * Version:   3.1
+ * Version:   3.0
  * Created:   2025-07-02
- * Updated:   2026-05-04
+ * Updated:   2026-05-01
  * Author:    Shadi Kabajah
  * 
  * COPYRIGHT NOTICE:
@@ -11,5 +11,5 @@
  * Unauthorized copying, distribution, or modification of this file 
  * is strictly prohibited. 
  * 
- * Full license & terms: https://tl-dr.store/privacy.html
+ * Full license & terms: https://tl-dr.studio/privacy.html
  */
