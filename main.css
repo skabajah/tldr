@@ -927,7 +927,7 @@ body {
 .main-page--dimmed .mock-line--90 { width: 90%; }
 .main-page--dimmed .mock-line--80 { width: 80%; }
 .main-page--dimmed .mock-line--75 { width: 75%; }
-.skim-sidebar {
+.tldr-sidebar {
     width: 280px;
     background: var(--white);
     border-left: 1px solid var(--gray);
@@ -935,38 +935,38 @@ body {
     display: flex;
     flex-direction: column;
 }
-.skim-sidebar__header {
+.tldr-sidebar__header {
     padding: 16px;
     border-bottom: 1px solid #f1f5f9;
     display: flex;
     align-items: center;
     gap: 10px;
 }
-.skim-sidebar__logo {
+.tldr-sidebar__logo {
     width: 28px;
     height: 28px;
 }
-.skim-sidebar__title {
+.tldr-sidebar__title {
     font-weight: 700;
     font-size: 16px;
     color: var(--dark);
 }
-.skim-sidebar__content {
+.tldr-sidebar__content {
     padding: 16px;
     flex: 1;
 }
-.skim-sidebar__intro {
+.tldr-sidebar__intro {
     font-size: 12px;
     line-height: 1.5;
     color: #1e293b;
     margin-bottom: 20px;
 }
-.skim-sidebar__list {
+.tldr-sidebar__list {
     list-style: none;
     padding: 0;
     margin: 0 0 20px 0;
 }
-.skim-sidebar__list-item {
+.tldr-sidebar__list-item {
     display: flex;
     gap: 10px;
     margin-bottom: 14px;
@@ -975,7 +975,7 @@ body {
     color: var(--dark);
     opacity: 0.6;
 }
-.skim-sidebar__check {
+.tldr-sidebar__check {
     font-size: 18px;
     color: var(--green);
     flex-shrink: 0;
