@@ -1,6 +1,6 @@
 {
-  "name": "skim-it",
-  "short_name": "skim-it",
+  "name": "tl-dr",
+  "short_name": "tl-dr",
   "description": "The fastest way to skim and summarize content.",
   "start_url": "/",
   "display": "standalone",
