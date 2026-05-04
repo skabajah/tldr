@@ -1,9 +1,9 @@
 /**
- * skim-it | AI summaries, zero friction
+ * tl;dr| summarize any text using ai
  * 
- * Version:   3.0
+ * Version:   3.1
  * Created:   2025-07-02
- * Updated:   2026-05-01
+ * Updated:   2026-05-04
  * Author:    Shadi Kabajah
  * 
  * COPYRIGHT NOTICE:
@@ -11,5 +11,5 @@
  * Unauthorized copying, distribution, or modification of this file 
  * is strictly prohibited. 
  * 
- * Full license & terms: https://skim-it.studio/privacy.html
+ * Full license & terms: https://tl-dr.store/privacy.html
  */
