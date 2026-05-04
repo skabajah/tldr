@@ -241,7 +241,7 @@ body {
     /*font-weight: 900;*/
     text-transform: lowercase;
     margin-bottom: 1rem;
-    display: flex;
+    /*display: flex;*/
     justify-self: center;
     font-size: 7rem;
     font-weight: bolder;
