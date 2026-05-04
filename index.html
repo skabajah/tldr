@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="skim-it: AI-powered text summarizer for Chrome and Firefox. Instantly summarize articles, emails, and any text with Llama 3 & Gemini. Multi-language support.">
+    <meta name="keywords" content="AI summarizer, text summary, Chrome extension, Firefox add-on, Llama 3, Gemini, skim text, summarize articles, email summary">
+    <meta name="author" content="Shadi Kabajah">
+    <meta name="robots" content="index, follow">
+    <title>skim-it - AI Summary for Chrome, Firefox & Gmail</title>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Abel&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200">
+    
+    <link rel="icon" href="/favicon.ico">
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+    <link rel="icon" type="image/png" sizes="32x32" href="/icon-32.png">
+    <link rel="icon" type="image/png" sizes="48x48" href="/icon-48.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/icon-180.png">
+    <link rel="manifest" href="/manifest.webmanifest">
+    <meta name="theme-color" content="#f3d175">
+
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+
+<!-- Nav -->
+<nav class="nav">
+    <div class="container nav__inner">
+        <a href="index.html" class="nav__brand">
+            <img src="icon.svg" alt="skim-it" class="icon--sm">
+            <span>skim-it</span>
+        </a>
+        <div class="nav__links">
+            <a href="#sidebar">Browser Extension</a>
+            <a href="#gmail">Gmail Add-on</a>
+            <a href="#settings">Settings</a>
+            <a href="#footer">Contacts</a>
+        </div>
+    </div>
+</nav>
+
+<!-- Hero -->
+<section class="hero">
+    <div class="container hero__inner">
+        <div class="badge">AI-Powered by Llama 3 & Gemini</div>
+        <img src="icon.svg" alt="skim-it" class="icon--lg hero__icon">
+        <h1 class="hero__title">skim-it</h1>
+        <h2 class="hero__subtitle">summarize any text using ai</h2>
+        <p class="hero__desc">Instantly extract what matters from articles, emails, or job descriptions.<br>skim-it works where you do, in your browser and your inbox.</p>
+        
+        <div class="hero__availability">Available on: Chrome • Firefox</div>
+        <div class="hero__soon">Soon on: Gmail • Safari • Edge</div>
+
+        <!-- Hero Buttons with Badges -->
+        <div class="hero__buttons">
+            <a href="https://chromewebstore.google.com/detail/skim-it/imjpiilkbkpmibjjgbecmglmpggcnjfc" target="_blank" class="btn-store btn-chrome">
+                Chrome
+                <span class="badge-active">Active</span>
+            </a>
+            <a href="https://addons.mozilla.org/en-US/firefox/addon/skim-it/" target="_blank" class="btn-store btn-firefox">
+                Firefox
+                <span class="badge-active">Active</span>
+            </a>
+            <a href="#" class="btn-store btn-edge">
+                Edge
+                <span class="badge-soon">Soon</span>
+            </a>
+        </div>
+        
+
+    </div>
+</section>
+
+<!-- Sidebar Section -->
+<section id="sidebar" class="section section--gray">
+    <div class="container section__grid section__grid--reverse">
+        <div class="browser sidebar-demo">
+            <div class="browser__bar">
+                <div class="browser__dots">
+                    <span></span><span></span><span></span>
+                </div>
+                <div class="browser__url">https://skim-it.studio/</div>
+                <div class="extension-badge">
+                    <img src="icon.svg" alt="skim-it" class="extension-badge__icon">
+                </div>
+            </div>
+            <div class="browser__content browser__content--with-sidebar">
+                <div class="main-page main-page--dimmed">
+                    <div class="mock-title"></div>
+                    <div class="mock-line"></div>
+                    <div class="mock-line mock-line--95"></div>
+                    <div class="mock-line mock-line--80"></div>
+                    <div class="mock-heading"></div>
+                    <div class="mock-line"></div>
+                    <div class="mock-line mock-line--90"></div>
+                    <div class="mock-line mock-line--75"></div>
+                </div>
+                <div class="skim-sidebar">
+                    <div class="skim-sidebar__header">
+                        <img src="icon.svg" alt="skim-it" class="skim-sidebar__logo">
+                        <span class="skim-sidebar__title">skim-it</span>
+                    </div>
+                    <div class="skim-sidebar__content">
+                        <p class="skim-sidebar__intro">
+                            <strong>AI</strong> identifies the key points from this page:
+                        </p>
+                        <ul class="skim-sidebar__list">
+                            <li class="skim-sidebar__list-item">
+                                <span> • </span>
+                                <span>Skim-it: AI summaries of any text instantly.</span>
+                            </li>
+                            <li class="skim-sidebar__list-item">
+                                <span> • </span>
+                                <span>Works on any site, no page switching.</span>
+                            </li>
+                            <li class="skim-sidebar__list-item">
+                                <span> • </span>
+                                <span>Gmail add-on pulls your tasks as bullet points.</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="section__text">
+            <div class="section__badge blue">
+                <span class="material-symbols-rounded">chrome_reader_mode</span>
+                Browser Extension
+            </div>
+            <h2 class="section__title">open sidebar,<br>skim instantly.</h2>
+            <p class="section__desc">Click the skim-it icon in your browser toolbar to open the sidebar. Get AI-powered summaries without leaving the page you're on.</p>
+            <ul class="checklist">
+                <li><span class="material-symbols-rounded blue">check_circle</span> Works on any website</li>
+                <li><span class="material-symbols-rounded blue">check_circle</span> No tab switching needed</li>
+            </ul>
+        </div>
+    </div>
+</section>
+
+<!-- Extension Section -->
+<section id="extension" class="section">
+    <div class="container section__grid">
+        <div class="section__text">
+            <h2 class="section__title">select, <br>right-click, <br>and skim.</h2>
+            <p class="section__desc">Powered by Llama 3, skim-it reads what you don't have time for. Highlight specific parts or skim the whole page with one click.</p>
+            <ul class="checklist">
+                <li><span class="material-symbols-rounded blue">check_circle</span> Multi language support</li>
+                <li><span class="material-symbols-rounded blue">check_circle</span> No hidden content or repeats</li>
+            </ul>
+        </div>
+        <div class="browser">
+            <div class="browser__bar">
+                <div class="browser__dots">
+                    <span></span><span></span><span></span>
+                </div>
+                <div class="browser__url">https://spectrum.ieee.org/</div>
+            </div>
+            <div class="browser__content">
+                <div class="mock-text">
+                    <div class="mock-line"></div>
+                    <div class="mock-line" style="width: 83%"></div>
+                    <div class="mock-line" style="width: 66%"></div>
+                </div>
+                <p class="browser__quote">"...the new project requirements specify a multi-cloud architecture with high availability. The implementation phase must begin by July 2025 following the initial design audit."</p>
+                <div class="mock-text">
+                    <div class="mock-line"></div>
+                    <div class="mock-line"></div>
+                </div>
+            </div>
+            <div class="context-menu">
+                <div class="context-menu__item">
+                    <span class="material-symbols-rounded icon--xs">content_copy</span>
+                    Copy
+                </div>
+                <div class="context-menu__item context-menu__item--active">
+                    <img src="icon_white.svg" alt="" class="icon--xs"> skim-it
+                </div>
+                <div class="context-menu__item">
+                    <span class="material-symbols-rounded icon--xs">search</span>
+                    Search with Google
+                </div>
+                <div class="context-menu__divider"></div>
+                <div class="context-menu__item">Inspect</div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Gmail Section -->
+<section id="gmail" class="section section--gray">
+    <div class="container section__grid section__grid--reverse">
+        <div class="gmail">
+            <div class="gmail__main">
+                <div class="gmail__toolbar">
+                    <span class="material-symbols-rounded">menu</span>Email 
+                    <div class="gmail__search"></div>
+                </div>
+                <h4 class="gmail__title">Quarterly Strategy Meeting</h4>
+                <p class="gmail__from">From: Jane Doe &lt;jdoe@company.com&gt;</p>
+                <div class="mock-text">
+                    <div class="mock-line"></div>
+                    <div class="mock-line"></div>
+                    <div class="mock-line" style="width: 75%"></div>
+                </div>
+            </div>
+            <div class="gmail__sidebar">
+                <div class="gmail__sidebar-header">
+                    <img src="icon.svg" alt="" class="icon--xs">
+                    <span>skim-it</span>
+                </div>
+                <div class="gmail__sidebar-content">
+                    <p class="gmail__tasks-label">Tasks Found</p>
+                    <ul class="gmail__tasks">
+                        <li>
+                            <span class="material-symbols-rounded">check_circle</span>
+                             Prepare Q3 Slides</li>
+                        <li>
+                            <span class="material-symbols-rounded">check_circle</span> Review Audit Docs</li>
+                    </ul>
+                    <div class="gmail__takeaway">
+                        <p>Key Takeaways</p>
+                        <p>High priority detected in paragraph 2 regarding deadlines.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="section__text">
+            <div class="section__badge red">
+                <span class="material-symbols-rounded">mail</span>
+                Gmail Add-on
+            </div>
+            <h2 class="section__title">Never miss a task again.</h2>
+            <p class="section__desc">Our sidebar add-on uses Gemini AI to scan your inbox. It identifies tasks specifically assigned to you and extracts them as concise bullet points.</p>
+            <div class="feature-grid">
+                <div>
+                    <h4>Prioritize</h4>
+                    <p>Know which emails need immediate attention.</p>
+                </div>
+                <div>
+                    <h4>Actionable</h4>
+                    <p>Stay organized with extracted bullet-point tasks.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Customize Section -->
+<section id="settings" class="section">
+    <div class="container">
+        <div class="section__badge green">
+            <span class="material-symbols-outlined">settings</span>
+            Make It Yours
+        </div>
+        <div class="section__header">
+            <h2 class="section__title">
+                input any language<br>
+                summarize in your language<br>
+                tailor your reading flow
+            </h2>
+            <div class="settings-features">
+                <p class="section__desc">
+                    <span>adjust text size</span>
+                    <span class="dot-separator">•</span>
+                    <span>choose summary density</span>
+                    <span class="dot-separator">•</span>
+                    <span>your settings stick across every page</span>
+                </p>
+            </div>
+        </div>
+        <div class="settings-card">
+            <span class="settings-card__icon material-symbols-outlined">settings</span>
+            <div class="settings-card__header">
+                <div class="settings-card__icon-bg">
+                    <span class="material-symbols-rounded">settings</span>
+                </div>
+                <h3>preferences</h3>
+            </div>
+            <div class="settings-label">
+                <span class="material-symbols-rounded">g_translate</span>
+                Language
+            </div>
+            <div class="settings-card__lang">
+                <button class="btn--pill btn--pill-active"><span class="material-symbols-rounded">public</span> English</button>
+                <button class="btn--pill"><span class="material-symbols-rounded">public</span> العربية</button>
+                <button class="btn--pill"><span class="material-symbols-rounded">public</span> Español</button>
+                <button class="btn--pill"><span class="material-symbols-rounded">public</span> Italiano</button>
+                <button class="btn--pill"><span class="material-symbols-rounded">public</span> Français</button>
+            </div>
+            <div class="settings-card__grid">
+                <div>
+                    <div class="settings-label">
+                        <span class="material-symbols-rounded">format_size</span>
+                        Text Size
+                    </div>
+                    <div class="slider-control">
+                        <span>A-</span>
+                        <div class="slider-track">
+                            <div class="slider-dot"></div>
+                        </div>
+                        <span>A+</span>
+                    </div>
+                </div>
+                <div>
+                    <div class="settings-label">
+                        <span class="material-symbols-rounded">view_stream</span>
+                        Summary Density
+                    </div>
+                    <div class="density-group">
+                        <div class="density-option"><span class="material-symbols-rounded">density_small</span> Elaborate</div>
+                        <div class="density-option density-option--active"><span class="material-symbols-rounded">density_medium</span> Medium</div>
+                        <div class="density-option"><span class="material-symbols-rounded">density_large</span> Minimal</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Footer - NEW GROUPED VERSION -->
+<footer class="footer" id="footer">
+    <div class="container footer__inner">
+        <!-- Group 1: Brand & Copyright -->
+        <div class="footer-group">
+            <div class="footer__brand">
+                <a href="index.html">
+                    <img src="icon_white.svg" alt="skim-it" class="icon--xs">
+                    <span class="footer__brand">skim-it</span>
+                </a>
+            </div>
+            <p class="footer__credit">© 2026 <a href="https://skabajah.github.io/" target="_blank">Shadi Kabajah</a></p>
+        </div>
+
+        <!-- Group 2: Browsers -->
+        <div class="footer-group">
+            <h4 class="footer-group-title">Browsers</h4>
+            <div class="footer__links">
+                <a href="https://chromewebstore.google.com/detail/skim-it/imjpiilkbkpmibjjgbecmglmpggcnjfc" target="_blank">Chrome</a>
+                <a href="https://addons.mozilla.org/en-US/firefox/addon/skim-it/" target="_blank">Firefox</a>
+                <a href="#">Edge</a>
+            </div>
+        </div>
+
+        <!-- Group 3: Social -->
+        <div class="footer-group">
+            <h4 class="footer-group-title">Social</h4>
+            <div class="footer__links">
+                <a href="https://www.linkedin.com/company/skim-it/" target="_blank" rel="noopener">LinkedIn</a>
+                <a href="https://www.youtube.com/@skim-it" target="_blank" rel="noopener">YouTube</a>
+            </div>
+        </div>
+
+        <!-- Group 4: Legal -->
+        <div class="footer-group">
+            <h4 class="footer-group-title">Legal</h4>
+            <div class="footer__links">
+                <a href="privacy.html">Privacy</a>
+                <a href="terms.html">Terms</a>
+                <a href="mailto:info@skim-it.studio">Contact</a>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-SD2NVV5C39"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-SD2NVV5C39');
+</script>
+
+</body>
+</html>
