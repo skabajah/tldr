@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 Disallow: /private/
-Sitemap: https://skim-it.studio/sitemap.xml
+Sitemap: https://tl-dr.store/sitemap.xml
