@@ -11,5 +11,5 @@
  * Unauthorized copying, distribution, or modification of this file 
  * is strictly prohibited. 
  * 
- * Full license & terms: https://tl-dr.studio/privacy.html
+ * Full license & terms: https://tl-dr.store/privacy.html
  */
