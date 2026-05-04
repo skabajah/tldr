@@ -1,8 +1,8 @@
 <svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 960" width="960" height="960">
 
     <style>
-        .a{fill:#f3d175}
-        .b{fill:#1f1f1f}
+        .a{fill:#f1f1f1}
+        .b{fill:#f1f1f1}
     </style>
         <!-- Path 1: Yellow Circle -->
         <path class="a" d="m375 239.7c0-58 47-105.1 105-105.1 27.9 0 54.6 11.1 74.3 30.8 19.7 19.7 30.7 46.5 30.7 74.3 0 58.1-47 105.2-105 105.2-58 0-105-47.1-105-105.2z"/>
