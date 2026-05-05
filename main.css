@@ -28,6 +28,7 @@
     --white: #f1f1f1 ; 
     --black: #1f1f1f ;
     --shadow: 0 10px 25px rgba(0,0,0,0.15);
+    --btn-shadow: 5px 5px 10px 1px rgb(0 0 0 / 40%);
     
     /* New button colors */
     --firefox-orange: #e67e22;
@@ -139,56 +140,33 @@ body {
     justify-content: center;
     width: 160px;
     padding: 0.85rem 0.5rem;
-    border-radius: 4px;
+    border-radius: 30px;
     font-weight: 700;
     text-transform: uppercase;
     text-decoration: none;
     font-size: 1rem;
     transition: background 0.2s ease;
     text-align: center;
+    border-radius: 30px;
 }
 .btn-chrome {
     background: var(--green);
-    color: var(--white);
-        opacity: .8;
-
-
-}
-.btn-chrome:hover {
-    /*background: #5e8b4f;*/
-        opacity: 1;
-
-}
+    color: var(--white); 
+} 
 .btn-firefox {
     background: var(--firefox-orange);
     color: var(--white);
-        opacity: .8;
-
-}
-.btn-firefox:hover {
-    /*background: #d35400;*/
-        opacity: 1;
-
 }
 .btn-edge {
     background: var(--blue);
     color: var(--white);
-    opacity: .8;
 }
-.btn-edge:hover {
-    /*background: #4a4a4a;*/
-    opacity: 1;
-}
-
 .btn-safari {
     background: var(--gray);
-    /*color: var(--white);*/
     color: #6d6d6d;
-    opacity: .8;
 }
-.btn-safari:hover {
-    /*background: #4a4a4a;*/
-    /*opacity: 1;*/
+.btn-store:hover {
+    box-shadow: var(--btn-shadow);
 }
 
 
