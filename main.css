@@ -90,8 +90,17 @@ body {
     font-weight: 700;
     text-transform: uppercase;
 }
-.nav__links a { text-decoration: none; color: inherit; }
-.nav__links a.active { color: var(--green); }
+.nav__links a { 
+    text-decoration: none; 
+    color: inherit; 
+}
+.nav__links a:hover { 
+    /*text-decoration: underline; */
+    background: var(--yellow); 
+}
+.nav__links a.active { 
+    color: var(--green); 
+}
 @media (min-width: 768px) { .nav__links { display: flex; } }
 
 /* Icons */
@@ -251,7 +260,7 @@ body {
 .hero__subtitle {
     font-size: 1.875rem;
     font-weight: 700;
-    opacity: 0.7;
+    opacity: 85%;
     margin-bottom: 1rem;
 }
 @media (max-width: 768px) { 
@@ -785,8 +794,11 @@ body {
     transition: opacity 0.2s;
 }
 .footer .footer__links a:hover {
-    color: var(--yellow);
+    background: var(--yellow);
     opacity: 1;
+    text-decoration: underline;
+    width: fit-content;
+    color: black;
 }
 .footer .footer__credit {
     font-size: 0.7rem;
