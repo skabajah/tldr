@@ -1,7 +1,7 @@
 // Wait for DOM to load
 document.addEventListener('DOMContentLoaded', () => {
     // ========== CONFIG ==========
-    const APPS_SCRIPT_URL = 'https://script.google.com/macros/s/AKfycbz6PrlzHCzIgJoeUYSyTXvXV0y-QlHBODCTG48d9zuKEnXnt1rIX9eh4hJ86yeMGY0T/exec';
+    const APPS_SCRIPT_URL = 'https://script.google.com/macros/s/AKfycbxgX9FA9W90Kz5a4lqXWjA0wDlkS4KLrukEwAmnPxIZAyHSrTVUOSpMGxsB8doU4LuJ/exec';
     
     // ========== STATE ==========
     let currentTone = 'tone1';
