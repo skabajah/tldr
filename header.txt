@@ -1,9 +1,9 @@
 /**
- * tl-dr | AI summaries, zero friction
+ * tl;dr | dont be boring ; be interesting™
  * 
- * Version:   3.0
+ * Version:   4.1
  * Created:   2025-07-02
- * Updated:   2026-05-01
+ * Updated:   2026-05-06
  * Author:    Shadi Kabajah
  * 
  * COPYRIGHT NOTICE:
