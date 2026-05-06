@@ -1,0 +1,84 @@
+
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+body {
+    background: var(--gray-light);
+}
+.playground-container {
+    height: calc(100% - 64px);
+    padding: 6rem 2rem 1rem;
+    max-width: none;
+}
+.browser-window {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    border-radius: 12px;
+    overflow: hidden;
+}
+.browser-content {
+    flex: 1;
+    min-height: 0;
+    display: flex;
+}
+.web-page {
+    flex: 1;
+    padding: 24px;
+    display: flex;
+    flex-direction: column;
+    overflow-y: auto;
+}
+.main-textarea {
+    width: 100%;
+    flex: 1;
+    min-height: 200px;
+    padding: 16px;
+    border: 1px solid var(--gray);
+    border-radius: 12px;
+    font-family: 'Abel', sans-serif;
+    font-size: 14px;
+    background: var(--white);
+    resize: vertical;
+}
+.tldr-sidebar-fixed {
+    width: 320px;
+    background: var(--white);
+    border-left: 1px solid var(--gray);
+    display: flex;
+    flex-direction: column;
+}
+.summary-scroll {
+    flex: 1;
+    padding: 20px;
+    overflow-y: auto;
+    font-size: 14px;
+    line-height: 1.6;
+    color: var(--dark);
+}
+.mode-tab {
+    transition: all 0.2s;
+}
+.mode-tab .material-symbols-outlined {
+    transition: color 0.2s;
+}
+.toast-message {
+    position: fixed;
+    bottom: 30px;
+    left: 50%;
+    transform: translateX(-50%);
+    background: var(--dark);
+    color: white;
+    padding: 8px 20px;
+    border-radius: 30px;
+    font-size: 13px;
+    opacity: 0;
+    transition: 0.2s;
+    pointer-events: none;
+    z-index: 3000;
+}
+@keyframes spin {
+    to { transform: rotate(360deg); }
+} 
