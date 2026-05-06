@@ -134,7 +134,7 @@ body { color: var(--dark); }
     /*color: var(--white); */
 }
 /*.btn-edge { background: var(--blue); color: var(--white); }*/
-/*.btn-store:hover { box-shadow: var(--btn-shadow); }*/
+.btn-store:hover { box-shadow: var(--btn-shadow); }
 
 /* Hero */
 .hero {
