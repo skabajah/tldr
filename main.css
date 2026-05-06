@@ -118,11 +118,23 @@ body { color: var(--dark); }
     transition: background 0.2s ease;
     text-align: center;
     gap: 8px;
+    color: white;
 }
-.btn-chrome { background: var(--green); color: var(--white); } 
-.btn-firefox { background: var(--firefox-orange); color: var(--white); }
-.btn-edge { background: var(--blue); color: var(--white); }
-.btn-store:hover { box-shadow: var(--btn-shadow); }
+.btn-icon { 
+    width: 24px;
+    height: 24px;
+    opacity: 85%;
+}
+.btn-chrome { 
+    background: var(--green); 
+    /*color: var(--white); */
+} 
+.btn-firefox { 
+    background: var(--firefox-orange); 
+    /*color: var(--white); */
+}
+/*.btn-edge { background: var(--blue); color: var(--white); }*/
+/*.btn-store:hover { box-shadow: var(--btn-shadow); }*/
 
 /* Hero */
 .hero {
@@ -435,8 +447,8 @@ body { color: var(--dark); }
     gap: 10px;
 }
 .menu-item-highlight {
-    background-color: var(--yellow);
-    color: var(--dark);
+    background-color: var(--blue);
+    color: white;
     font-weight: bold;
 }
 .menu-item-highlight img { width: 16px; height: 16px; }
@@ -694,3 +706,6 @@ body { color: var(--dark); }
     left: 320px;
     z-index: 1000;
 }
+.yellow {
+    color: var(--yellow); 
+ }
