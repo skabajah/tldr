@@ -1,0 +1,237 @@
+/**
+ * tl;dr | print styles
+ * Version:   6.0
+ * Created:   2026-06-17
+ * Author:    Shadi Kabajah
+ * 
+ * Full license & terms: https://tl-dr.store/privacy.html
+ */
+
+@media print {
+
+  /* Hide nav and footer */
+  .nav_links a,
+  .nav span,
+  .footer, 
+  .badge , .hero_desc
+  {
+    display: none !important;
+  }
+  .nav { 
+      background: none  !important;
+      border: none !important }
+
+  /* Each section = one page */
+  .section,
+  .hero {
+    page-break-after: always;
+    page-break-inside: avoid;
+    width: 1280px;
+    height: 800px;
+    padding: 2.5rem 3rem;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    overflow: hidden;
+    position: relative;
+    -webkit-print-color-adjust: exact !important;
+    print-color-adjust: exact !important;
+    color-adjust: exact !important;
+  }
+
+  .section:last-of-type,
+  #settings {
+    page-break-after: avoid;
+  }
+
+  /* ===== PAGE COLORS ===== */
+  #hero { background: #f3d175 !important; }
+  #sidebar { background: #f3d175 !important; }
+  #context { background: #7498d5 !important; }
+  #email { background: #dd7970 !important; }
+  #languages { background: #7fa171 !important; }
+  #tones { background: #9d8eb9 !important; }
+  #settings { background: #7fa171 !important; }
+
+  /* White text on dark backgrounds */
+  #context .section_title,
+  #context .section_desc,
+  #email .section_title,
+  #email .section_desc,
+  #languages .section_title,
+  #languages .section_desc,
+  #tones .section_title,
+  #tones .section_desc,
+  #settings .section_title,
+  #settings .section_desc {
+    color: #fff !important;
+    font-size: 24px !important;
+  }
+
+  /* ===== SECTION BADGE - TOP LEFT ===== */
+  .section_badge {
+    font-size: 3em !important;
+    padding: 0.5rem 0 !important;
+    margin-bottom: 0.5rem !important;
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: flex-start !important;
+    gap: 0.25rem !important;
+    background: transparent !important;
+    width: fit-content !important;
+    font-weight: normal !important;
+  }
+  .section_badge .material-symbols-outlined {
+    /*font-size: 3.5rem !important;*/
+  }
+  .section_badge span:last-child {
+    font-size: 3em !important;
+    font-weight: 300 !important;
+    line-height: 1 !important;
+  }
+ 
+
+  .section_title {
+    /*font-size: 3rem !important;*/
+    margin-bottom: 1rem !important;
+  }
+  .section_desc {
+    font-size: 1.25rem !important;
+    /*max-width: 80% !important;*/
+    margin-top: auto !important;
+    margin-bottom: 0.5rem !important;
+    padding-bottom: 0.5rem !important;
+  }
+
+  /* ===== HERO ===== */
+  #hero .hero_title {
+    font-size: 8rem !important;
+    font-family: 'Candal', cursive !important;
+    margin-bottom: 0.5rem !important;
+  }
+  #hero .hero_subtitle {
+    font-size: 2.5rem !important;
+    margin-bottom: 1rem !important;
+  }
+ 
+  #hero .hero_icon {
+    height: 8rem !important;
+    opacity: 1 !important;
+    display: inline-block !important;
+  }
+
+  /* ===== BOTTOM RIGHT ICON ===== */
+  body::after {
+    content: url('icon.svg') !important;
+    position: fixed !important;
+    bottom: 2rem !important;
+    right: 2rem !important;
+    width: 8rem !important;
+    height: 8rem !important;
+    opacity: 0.3 !important;
+    z-index: 9999 !important;
+    pointer-events: none !important;
+  }
+
+  /* ===== BROWSER MOCKUP — KEEP AS IS ===== */
+  .browser-window, .gmail, .settings-card {
+    max-width: 880px !important;
+    margin: 0 auto !important;
+    border: 1px solid #ddd !important;
+    box-shadow: none !important;
+    background: #fff !important;
+    border-radius: 8px !important;
+    overflow: hidden !important;
+    min-width: 800px;
+    min-height: 500px;
+  } 
+  /* ===== CONTEXT MENU ===== */
+  .context-menu {
+    display: flex !important;
+    flex-direction: column !important;
+    position: absolute !important;
+    top: 50% !important;
+    left: 60% !important;
+    transform: translate(-50%, -50%) !important;
+    background: #fff !important;
+    border: 1px solid #ddd !important;
+    border-radius: 8px !important;
+    width: 200px !important;
+    padding: 6px !important;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1) !important;
+    z-index: 10 !important;
+  }
+
+
+
+  /* ===== LANGUAGE DEMO ===== */
+  .language-demo {
+    display: flex !important;
+    gap: 1.5rem !important;
+    align-items: stretch !important;
+    max-width: 90% !important;
+    margin: 0   !important;
+  } 
+  .output-text { 
+    font-size: 20px !important;
+
+   }
+   .lang-output { 
+      height: fit-content !important;
+    align-self: center !important;
+    }
+
+    .lang-arrow > * { 
+    color: var(--white) !important;
+  }
+
+
+  /* ===== TONES GRID ===== */
+  .tones-grid {
+    display: grid !important;
+    grid-template-columns: repeat(3, 1fr) !important;
+    gap: 0.75rem !important;
+    max-width: 90% !important;
+    margin: 0  !important;
+  } 
+
+.tone-card.active { 
+  border-color: var(--gray) !important;
+  background:  var(--white) !important;
+ }
+  /* ===== SETTINGS ===== */
+  .settings-card {
+     background: rgba(255, 255, 255, 0.12) !important;
+    border-radius: 16px !important;
+    border: 1px solid rgba(255, 255, 255, 0.15) !important;
+    margin: 0 auto !important;
+  }
+
+.container { 
+  margin: auto;
+  margin-left: 150px;
+   }
+
+ .container.browser-mockup-container {
+    margin: auto;
+}
+.container.hero_inner {
+    margin: auto;
+}
+img.icon-md {
+    filter: brightness(0) invert(1);
+    position: fixed;
+    bottom: 2em;
+    right: 2em;
+    width: 7em;
+    height: 7em;
+    }
+
+
+  /* ===== HIDE INTERACTIVE ===== */ 
+  .save-status, 
+  .lang-buttons 
+  {
+    display: none !important;
+  }

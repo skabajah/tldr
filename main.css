@@ -522,6 +522,8 @@ body { color: var(--dark); }
     border-radius: 8px;
     display: flex;
     flex-direction: column;
+    height: fit-content;
+    align-self: center;
 }
 .lang-output .output-label {
     font-size: 11px;
@@ -531,7 +533,12 @@ body { color: var(--dark); }
     color: var(--yellow);
     margin-bottom: 0.5rem;
 }
-.lang-output .output-text { font-size: 14px; line-height: 1.6; color: var(--dark); flex: 1; }
+.lang-output .output-text { 
+    font-size: 20px; 
+    line-height: 1.6; 
+    color: var(--dark); 
+    flex: 1; 
+}
 .lang-buttons {
     display: flex;
     justify-content: center;
