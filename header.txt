@@ -1,9 +1,9 @@
 /**
- * tl;dr | dont be boring ; be interesting™
+ * tl;dr | spill the tea ..
  * 
- * Version:   4.1
+ * Version:   5.1
  * Created:   2025-07-02
- * Updated:   2026-05-06
+ * Updated:   2026-06-18
  * Author:    Shadi Kabajah
  * 
  * COPYRIGHT NOTICE:
