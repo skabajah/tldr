@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="tl-dr: AI-powered text summarizer for Chrome and Firefox. Instantly summarize articles, emails, and any text with Llama 3 & Gemini. Multi-language support.">
-    <meta name="keywords" content="AI summarizer, text summary, Chrome extension, Firefox add-on, Llama 3, Gemini, summarize text, summarize articles, ai summary">
+    <meta name="description" content="tl-dr: AI-powered text summarizer for Chrome and Firefox. Instantly summarize articles, emails, and any text with Llama 3.">
+    <meta name="keywords" content="AI summarizer, text summary, Chrome extension, Firefox add-on, Llama 3, summarize text">
     <meta name="author" content="Shadi Kabajah">
     <meta name="robots" content="index, follow">
     <title>tl;dr | spill the tea ..</title>
@@ -23,11 +23,11 @@
     <link rel="manifest" href="/manifest.webmanifest">
     <meta name="theme-color" content="#f3d175">
 
-    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="main_v5.css">
 </head>
 <body>
 
-<!-- Nav -->
+<!-- NAV -->
 <nav class="nav">
     <div class="container nav_inner">
         <a href="index.html" class="nav_brand">
@@ -35,124 +35,94 @@
             <span>tldr</span>
         </a>
         <div class="nav_links">
-            <a href="#empty-state">Professional</a>
-            <a href="#rupaul-mode">Fabulous</a>
-            <a href="#trump-mode">Tremendous</a>
+            <a href="#skimmer">Skimmer</a>
+            <a href="#researcher">Researcher</a>
+            <a href="#analyst">Analyst</a>
+            <a href="#teenager">Teenager</a>
+            <a href="#critique">Critique</a>
+            <a href="#executive">Executive</a>
+            <a href="#gmail">Gmail</a>
             <a href="#settings">Customize</a>
             <a href="#footer">Reach Out</a>
         </div>
     </div>
 </nav>
 
-<!-- Hero Section -->
+<!-- HERO -->
 <section class="hero">
     <div class="container hero_inner">
         <div class="badge">AI-Powered by Llama 3</div>
         <h1 class="hero_title">tl<img src="icon-center.svg" alt="tl-dr" class="icon-lg hero_icon">dr</h1>
         <h2 class="hero_subtitle">spill the tea ..</h2>
         <div class="hero_desc">
-
-            <p>The world's first truly <strong>bipartisan browser extension</strong>. 
-                Whether you want the tremendous "huge" facts or the high-fashion runway tea, we cut the friction so you can get straight to the amen.
-            </p>
+            <p>AI summaries in the voice you actually want to read. No drama. No clutter. Just the facts. Your way.</p>
         </div>
         <div class="hero_buttons">
             <a href="https://chromewebstore.google.com/detail/tl-dr/colepknnmkjpnooobdflkniegcfgaahg" target="_blank" class="btn-store btn-chrome">
-                <!-- <span class="material-symbols-outlined">extension</span> -->
-                 <img src="https://cdn.simpleicons.org/googlechrome/white" alt="Chrome Logo" class="btn-icon">
-                 Add Chrome Extension
+                <img src="https://cdn.simpleicons.org/googlechrome/white" alt="Chrome Logo" class="btn-icon">
+                Add Chrome Extension
             </a>
             <a href="https://addons.mozilla.org/en-US/firefox/addon/tldr/" target="_blank" class="btn-store btn-firefox">
-                <!-- <span class="material-symbols-outlined">auto_awesome</span> -->
                 <img src="https://cdn.simpleicons.org/firefoxbrowser/white" alt="Firefox Logo" class="btn-icon">
                 Add Firefox Add-on
             </a>
-     <!--        <a href="https://chromewebstore.google.com/detail/tl-dr/colepknnmkjpnooobdflkniegcfgaahg" target="_blank" class="btn-store btn-edge">
-                <span class="material-symbols-outlined">open_in_new</span>
-                Chrome Store on Edge
-            </a> -->
         </div>
-        <div class="hero_availability">
-            Available on: Chrome • Firefox
-        </div>
-        
+        <div class="hero_availability">Available on: Chrome • Firefox</div>
         <div class="hero_soon">and all Chromium browsers (Edge, Brave, Opera, etc.)</div>
-        <!-- <div class="hero_soon">Soon on: Safari</div> -->
     </div>
 </section>
 
-<!-- Mockup 0: Empty State Sidebar - PROFESSIONAL / DEFAULT -->
-<section id="empty-state" class="section">
+<!-- ===== SKIMMER ===== -->
+<section id="skimmer" class="section">
     <div class="container">
         <div class="section_badge" style="background: var(--yellow); color: black;">
-            <span class="header-brand" >
-                <img src="icon-dark.svg" class="icon-sm">
-            </span>
-            Professional Summaries
+            <span class="material-symbols-outlined">density_small</span>
+            Skimmer
         </div>
-        <h2 class="section_title">stop reading,<br>start summarizing</h2>
-        <p class="section_desc">Clean. Balanced. Professional. Get straight to the point with AI-powered summaries.</p>
+        <h2 class="section_title">brief, headline only</h2>
+        <p class="section_desc">Just the headline and one key point. Maximum impact, minimum words.</p>
     </div>
     <div class="container browser-mockup-container">
         <div class="browser-window">
             <div class="browser-header">
-                <div class="browser-dots">
-                    <span class="dot dot-red"></span>
-                    <span class="dot dot-yellow"></span>
-                    <span class="dot dot-green"></span>
-                </div>
-                <div class="address-bar">https://tl-dr.store/</div>
+                <div class="browser-dots"><span class="dot dot-red"></span><span class="dot dot-yellow"></span><span class="dot dot-green"></span></div>
+                <div class="address-bar">https://techcrunch.com/2026/06/15/quantum-computing-breakthrough</div>
                 <img src="icon.svg" class="icon-sm">
             </div>
             <div class="browser-content">
                 <div class="web-page">
-                    <div class="skeleton-title"></div>
-                    <div class="skeleton-bar"></div>
-                    <div class="skeleton-bar" style="width: 95%"></div>
-                    <div class="skeleton-bar" style="width: 98%"></div>
-                    <div class="skeleton-bar" style="width: 60%"></div>
-                    <div class="skeleton-bar"></div>
-                    <div class="skeleton-bar" style="width: 92%"></div>
-                    <div class="skeleton-bar" style="width: 96%"></div>
+                    <span class="article-category">Science</span>
+                    <h1 class="article-title">Quantum Computing Breakthrough: New Chip Achieves 99.9% Accuracy</h1>
+                    <p class="article-subhead">Researchers at MIT have developed a quantum processor that maintains near-perfect accuracy at room temperature.</p>
+                    <div class="article-body">
+                        <p>The team used a novel error-correction technique that could accelerate practical quantum computing by years.</p>
+                        <p>This advancement addresses one of the biggest hurdles in the field — stability at scale.</p>
+                    </div>
                 </div>
                 <div class="tldr-sidebar">
                     <div class="sidebar-header">
-                        <div class="header-brand">
-                            <img src="icon.svg" alt="tl;dr">
-                            tl;dr
-                        </div>
+                        <div class="header-brand"><img src="icon.svg" alt="tl;dr"> tl;dr</div>
                         <span class="material-symbols-outlined close-btn">close</span>
                     </div>
                     <div class="summary-container">
-                        <div class="bipartisan-tabs">
-                            <div class="mode-tab active" style="background: var(--yellow); color: white;">
-                                <span class="material-symbols-outlined" style="color: white;">speaker_notes</span>
-                                Professional
-                            </div>
-                            <div class="mode-tab">
-                                <span class="material-symbols-outlined" style="color: #94a3b8;">crown</span>
-                                RuPaul
-                            </div>
-                            <div class="mode-tab">
-                                <span class="material-symbols-outlined" style="color: #94a3b8;">fort</span>
-                                Trump
-                            </div>
+                        <div class="profession-tabs">
+                            <div class="mode-tab active" style="background: var(--yellow); color: white;"><span class="material-symbols-outlined" style="color: white;">density_small</span>Skimmer</div>
+                            <div class="mode-tab"><span class="material-symbols-outlined">science</span>Researcher</div>
+                            <div class="mode-tab"><span class="material-symbols-outlined">analytics</span>Analyst</div>
+                            <div class="mode-tab"><span class="material-symbols-outlined">face</span>Teenager</div>
+                            <div class="mode-tab"><span class="material-symbols-outlined">rate_review</span>Critique</div>
+                            <div class="mode-tab"><span class="material-symbols-outlined">business_center</span>Executive</div>
                         </div>
-                        <div class="empty-placeholder">
-                            <img src="icon.svg" alt="tl;dr" style="width: 48px; height: 48px; margin-bottom: 16px; opacity: 0.6;">
-                            <p>Select text, right-click,<br>and choose "tl;dr this selection"</p>
+                        <div class="summary-content">
+                            <p><strong>MIT researchers achieve 99.9% accuracy in quantum computing at room temperature.</strong> This breakthrough could accelerate practical quantum computing by years.</p>
                         </div>
                     </div>
                     <div class="action-footer">
-                        <div class="tldr-icon-btn-mock">
-                            <span class="material-symbols-outlined">content_copy</span>
-                        </div>
-                        <div class="tldr-icon-btn-mock">
-                            <span class="material-symbols-outlined">refresh</span>
-                        </div>
-                        <div class="tldr-icon-btn-mock">
-                            <span class="material-symbols-outlined">settings</span>
-                        </div>
+                        <div class="tldr-icon-btn-mock"><span class="material-symbols-outlined">content_copy</span></div>
+                        <div class="tldr-icon-btn-mock"><span class="material-symbols-outlined">refresh</span></div>
+                        <div class="tldr-icon-btn-mock"><span class="material-symbols-outlined">person</span></div>
+                        <div class="tldr-icon-btn-mock"><span class="material-symbols-outlined">g_translate</span></div>
+                        <div class="tldr-icon-btn-mock"><span class="material-symbols-outlined">settings</span></div>
                     </div>
                 </div>
             </div>
@@ -160,79 +130,60 @@
     </div>
 </section>
 
-<!-- Mockup 2: RuPaul Mode ONLY -->
-<section id="rupaul-mode" class="section section--gray">
+<!-- ===== RESEARCHER ===== -->
+<section id="researcher" class="section section--gray">
     <div class="container">
         <div class="section_badge" style="background: var(--blue); color: white;">
-            <span class="material-symbols-outlined">crown</span>
-            Fabulous Tea
+            <span class="material-symbols-outlined">science</span>
+            Researcher
         </div>
-        <h2 class="section_title">she done already done had herses.<br>same facts, fabulous voice.</h2>
-        <p class="section_desc">Honey, let me spill the tea on this story.</p>
+        <h2 class="section_title">factual, objective, accurate</h2>
+        <p class="section_desc">No opinions. Just verifiable facts. The truth, plain and simple.</p>
     </div>
     <div class="container browser-mockup-container">
         <div class="browser-window">
             <div class="browser-header">
-                <div class="browser-dots">
-                    <span class="dot dot-red"></span>
-                    <span class="dot dot-yellow"></span>
-                    <span class="dot dot-green"></span>
-                </div>
-                <div class="address-bar">https://www.nytimes.com/2026/05/06/world/hantavirus-cruise-ship.html</div>
+                <div class="browser-dots"><span class="dot dot-red"></span><span class="dot dot-yellow"></span><span class="dot dot-green"></span></div>
+                <div class="address-bar">https://www.nature.com/articles/s41586-026-01834-5</div>
                 <img src="icon.svg" class="icon-sm">
             </div>
             <div class="browser-content">
                 <div class="web-page">
-                    <div class="nyt-logo">The New York Times</div>
-                    <div class="article-meta">World / Health</div>
-                    <h1 class="article-title">Hantavirus Cruise Ship Remains at Sea as Leaders Clash Over Its Docking</h1>
-                    <div class="skeleton-bar"></div>
-                    <div class="skeleton-bar" style="width: 98%"></div>
-                    <div class="skeleton-bar" style="width: 95%"></div>
-                    <div class="skeleton-bar" style="width: 40%"></div>
-                    <div class="skeleton-bar"></div>
-                    <div class="skeleton-bar" style="width: 97%"></div>
-                    <div class="skeleton-bar" style="width: 99%"></div>
-                    <div class="skeleton-bar" style="width: 30%"></div>
+                    <span class="article-category">Nature</span>
+                    <h1 class="article-title">CRISPR-Cas9 Gene Editing Shows Promise in Alzheimer's Trial</h1>
+                    <p class="article-subhead">Phase II clinical trial demonstrates 40% reduction in amyloid plaques in early-stage patients.</p>
+                    <div class="article-body">
+                        <p>The trial involved 120 participants across 12 centers in the US and Europe.</p>
+                        <p>No significant adverse effects were reported. Follow-up studies are planned for Q1 2027.</p>
+                    </div>
                 </div>
                 <div class="tldr-sidebar">
                     <div class="sidebar-header">
-                        <div class="header-brand">
-                            <img src="icon.svg" alt="tl;dr">
-                            tl;dr
-                        </div>
+                        <div class="header-brand"><img src="icon.svg" alt="tl;dr"> tl;dr</div>
                         <span class="material-symbols-outlined close-btn">close</span>
                     </div>
                     <div class="summary-container">
-                        <div class="bipartisan-tabs">
-                            <div class="mode-tab">
-                                <span class="material-symbols-outlined" >speaker_notes</span>
-                                Professional
-                            </div>
-                            <div class="mode-tab active" style="background: var(--blue); color: white;">
-                                <span class="material-symbols-outlined" style="color: white;">crown</span>
-                                RuPaul
-                            </div>
-                            <div class="mode-tab">
-                                <span class="material-symbols-outlined">fort</span>
-                                Trump
-                            </div>
+                        <div class="profession-tabs">
+                            <div class="mode-tab"><span class="material-symbols-outlined">density_small</span>Skimmer</div>
+                            <div class="mode-tab active" style="background: var(--blue); color: white;"><span class="material-symbols-outlined" style="color: white;">science</span>Researcher</div>
+                            <div class="mode-tab"><span class="material-symbols-outlined">analytics</span>Analyst</div>
+                            <div class="mode-tab"><span class="material-symbols-outlined">face</span>Teenager</div>
+                            <div class="mode-tab"><span class="material-symbols-outlined">rate_review</span>Critique</div>
+                            <div class="mode-tab"><span class="material-symbols-outlined">business_center</span>Executive</div>
                         </div>
                         <div class="summary-content">
-                            Honey, let me spill the tea. There's a cruise ship, the MV Hondius, stuck at sea with a deadly hantavirus outbreak. Three people have died and five others are sick, and it's getting real, sweet thang.<br><br>
-                            The virus is carried by rodents, and it's a rare family of viruses. Now, don't you worry — we're keeping our eyes on this drama. Will they dock? Will they not? Either way, it's a hot mess, hunty.
+                            <p><strong>Data:</strong> Phase II trial (n=120). CRISPR-Cas9 targeting amyloid precursor protein.</p>
+                            <p><strong>Findings:</strong> 40% reduction in amyloid plaque burden. No severe adverse events.</p>
+                            <p><strong>Limitations:</strong> Small sample size. Long-term effects unknown.</p>
+                            <p><strong>Next steps:</strong> Phase III trial planned for 2027.</p>
                         </div>
                     </div>
                     <div class="action-footer">
-                        <div class="tldr-icon-btn-mock">
-                            <span class="material-symbols-outlined">content_copy</span>
-                        </div>
-                        <div class="tldr-icon-btn-mock">
-                            <span class="material-symbols-outlined">refresh</span>
-                        </div>
-                        <div class="tldr-icon-btn-mock">
-                            <span class="material-symbols-outlined">settings</span>
-                        </div>
+                        <div class="tldr-icon-btn-mock"><span class="material-symbols-outlined">content_copy</span></div>
+                        <div class="tldr-icon-btn-mock"><span class="material-symbols-outlined">refresh</span></div>
+                        <div class="tldr-icon-btn-mock"><span class="material-symbols-outlined">person</span></div>
+                        <div class="tldr-icon-btn-mock"><span class="material-symbols-outlined">g_translate</span></div>
+                        <div class="tldr-icon-btn-mock"><span class="material-symbols-outlined">settings</span></div>
                     </div>
                 </div>
             </div>
@@ -240,88 +191,60 @@
     </div>
 </section>
 
-<!-- Mockup 3: Trump Mode ONLY -->
-<section id="trump-mode" class="section">
+<!-- ===== ANALYST ===== -->
+<section id="analyst" class="section">
     <div class="container">
-        <div class="section_badge" style="background: var(--red); color: white;">
-            <span class="material-symbols-outlined">fort</span>
-            Tremendous Facts
+        <div class="section_badge" style="background: var(--green); color: white;">
+            <span class="material-symbols-outlined">analytics</span>
+            Analyst
         </div>
-        <h2 class="section_title">right-click, summarize,<br>and believe me.</h2>
-        <p class="section_desc">No BS. No hidden content. No repeated nonsense. Only tremendous facts.</p>
+        <h2 class="section_title">detailed, full context</h2>
+        <p class="section_desc">Background, relationships, and broader implications. Every angle covered.</p>
     </div>
     <div class="container browser-mockup-container">
-        <div class="browser-window context-menu-window">
+        <div class="browser-window">
             <div class="browser-header">
-                <div class="browser-dots">
-                    <span class="dot dot-red"></span>
-                    <span class="dot dot-yellow"></span>
-                    <span class="dot dot-green"></span>
-                </div>
-                <div class="address-bar">https://www.wsj.com/tech/ai/elon-musk-openai-megatrial-week-2</div>
+                <div class="browser-dots"><span class="dot dot-red"></span><span class="dot dot-yellow"></span><span class="dot dot-green"></span></div>
+                <div class="address-bar">https://www.bloomberg.com/2026/06/15/semiconductor-market-trends-2026</div>
                 <img src="icon.svg" class="icon-sm">
             </div>
             <div class="browser-content">
                 <div class="web-page">
-                    <span class="article-category">Technology</span>
-                    <h1 class="article-title">Elon Musk Megatrial Kicks Off Second Week With Scrutiny of OpenAI Exec's Finances</h1>
-                    <p class="article-subhead">Musk reached out before trial to ask about a settlement and predicted OpenAI leaders would be 'most hated men in America' by week's end.</p>
+                    <span class="article-category">Business</span>
+                    <h1 class="article-title">Global Semiconductor Market Poised for Record $1.2T Revenue in 2026</h1>
+                    <p class="article-subhead">AI chip demand and supply chain recovery drive 18% year-over-year growth.</p>
                     <div class="article-body">
-                        <p class="highlight-text">The second week of a blockbuster trial between Elon Musk and OpenAI kicked off Monday with a series of questions about the finances of the startup's president, Greg Brockman.</p>
-                        <p style="margin-top: 15px;" class="highlight-text">Brockman took the stand Monday, another star witness in a revolving cast of some of the most important leaders in artificial intelligence.</p>
-                    </div>
-                    <div class="context-menu">
-                        <div class="menu-item">Copy</div>
-                        <div class="menu-item">Search Google for...</div>
-                        <div class="menu-separator"></div>
-                        <div class="menu-item">Print...</div>
-                        <div class="menu-separator"></div>
-                        <div class="menu-item menu-item-highlight">
-                            <img src="icon-white.svg" alt="tl;dr">
-                            tl;dr this
-                        </div>
-                        <div class="menu-separator"></div>
-                        <div class="menu-item">Inspect</div>
+                        <p>TSMC and Samsung lead production expansion. US CHIPS Act funding begins distribution.</p>
+                        <p>Memory chips show 15% price stabilization. Automotive segment remains constrained.</p>
                     </div>
                 </div>
                 <div class="tldr-sidebar">
                     <div class="sidebar-header">
-                        <div class="header-brand">
-                            <img src="icon.svg" alt="tl;dr">
-                            tl;dr
-                        </div>
+                        <div class="header-brand"><img src="icon.svg" alt="tl;dr"> tl;dr</div>
                         <span class="material-symbols-outlined close-btn">close</span>
                     </div>
                     <div class="summary-container">
-                        <div class="bipartisan-tabs">
-                            <div class="mode-tab">
-                                <span class="material-symbols-outlined">speaker_notes</span>
-                                Professional
-                            </div>
-                            <div class="mode-tab">
-                                <span class="material-symbols-outlined">crown</span>
-                                RuPaul
-                            </div>
-                            <div class="mode-tab active" style="background: var(--red); color: white;">
-                                <span class="material-symbols-outlined" style="color: white;">fort</span>
-                                Trump
-                            </div>
+                        <div class="profession-tabs">
+                            <div class="mode-tab"><span class="material-symbols-outlined">density_small</span>Skimmer</div>
+                            <div class="mode-tab"><span class="material-symbols-outlined">science</span>Researcher</div>
+                            <div class="mode-tab active" style="background: var(--green); color: white;"><span class="material-symbols-outlined" style="color: white;">analytics</span>Analyst</div>
+                            <div class="mode-tab"><span class="material-symbols-outlined">face</span>Teenager</div>
+                            <div class="mode-tab"><span class="material-symbols-outlined">rate_review</span>Critique</div>
+                            <div class="mode-tab"><span class="material-symbols-outlined">business_center</span>Executive</div>
                         </div>
                         <div class="summary-content">
-                            Folks, let me tell you, we've got a huge problem on our hands. Elon Musk is in the middle of a megatrial, and it's a total disaster. He's suing OpenAI, and we're in the second week — very exciting, very tremendous.<br><br>
-                            They're digging into the finances of OpenAI's execs, and believe me, nobody knows more about finances than I do. Musk even reached out before the trial to see if they could settle, but they couldn't — sad!
+                            <p><strong>Market Overview:</strong> Semiconductor industry projected to hit $1.2T in 2026 — 18% YoY growth driven by AI chip demand and supply chain recovery.</p>
+                            <p><strong>Key Drivers:</strong> TSMC and Samsung leading manufacturing expansion. CHIPS Act funding distribution begins Q3 2026.</p>
+                            <p><strong>Segment Performance:</strong> Memory chips up 15%. Automotive remains constrained due to lagging production capacity.</p>
+                            <p><strong>Risk Factors:</strong> Potential overcapacity by 2027. Geopolitical tensions affecting Taiwan supply chain.</p>
                         </div>
                     </div>
                     <div class="action-footer">
-                        <div class="tldr-icon-btn-mock">
-                            <span class="material-symbols-outlined">content_copy</span>
-                        </div>
-                        <div class="tldr-icon-btn-mock">
-                            <span class="material-symbols-outlined">refresh</span>
-                        </div>
-                        <div class="tldr-icon-btn-mock">
-                            <span class="material-symbols-outlined">settings</span>
-                        </div>
+                        <div class="tldr-icon-btn-mock"><span class="material-symbols-outlined">content_copy</span></div>
+                        <div class="tldr-icon-btn-mock"><span class="material-symbols-outlined">refresh</span></div>
+                        <div class="tldr-icon-btn-mock"><span class="material-symbols-outlined">person</span></div>
+                        <div class="tldr-icon-btn-mock"><span class="material-symbols-outlined">g_translate</span></div>
+                        <div class="tldr-icon-btn-mock"><span class="material-symbols-outlined">settings</span></div>
                     </div>
                 </div>
             </div>
@@ -329,75 +252,391 @@
     </div>
 </section>
 
-<!-- Settings Section from 4.html -->
+<!-- ===== TEENAGER ===== -->
+<section id="teenager" class="section section--gray">
+    <div class="container">
+        <div class="section_badge" style="background: #9b59b6; color: white;">
+            <span class="material-symbols-outlined">face</span>
+            Teenager
+        </div>
+        <h2 class="section_title">simple, no jargon</h2>
+        <p class="section_desc">Clear, easy-to-understand language. No big words. Just the point.</p>
+    </div>
+    <div class="container browser-mockup-container">
+        <div class="browser-window">
+            <div class="browser-header">
+                <div class="browser-dots"><span class="dot dot-red"></span><span class="dot dot-yellow"></span><span class="dot dot-green"></span></div>
+                <div class="address-bar">https://www.wired.com/2026/06/15/ai-climate-modeling</div>
+                <img src="icon.svg" class="icon-sm">
+            </div>
+            <div class="browser-content">
+                <div class="web-page">
+                    <span class="article-category">Tech</span>
+                    <h1 class="article-title">How AI Is Helping Predict Extreme Weather</h1>
+                    <p class="article-subhead">Machine learning models now forecast hurricanes 5 days earlier than traditional methods.</p>
+                    <div class="article-body">
+                        <p>New AI systems are helping scientists predict storms with way more accuracy than before.</p>
+                        <p>This could give people more time to prepare and stay safe.</p>
+                    </div>
+                </div>
+                <div class="tldr-sidebar">
+                    <div class="sidebar-header">
+                        <div class="header-brand"><img src="icon.svg" alt="tl;dr"> tl;dr</div>
+                        <span class="material-symbols-outlined close-btn">close</span>
+                    </div>
+                    <div class="summary-container">
+                        <div class="profession-tabs">
+                            <div class="mode-tab"><span class="material-symbols-outlined">density_small</span>Skimmer</div>
+                            <div class="mode-tab"><span class="material-symbols-outlined">science</span>Researcher</div>
+                            <div class="mode-tab"><span class="material-symbols-outlined">analytics</span>Analyst</div>
+                            <div class="mode-tab active" style="background: #9b59b6; color: white;"><span class="material-symbols-outlined" style="color: white;">face</span>Teenager</div>
+                            <div class="mode-tab"><span class="material-symbols-outlined">rate_review</span>Critique</div>
+                            <div class="mode-tab"><span class="material-symbols-outlined">business_center</span>Executive</div>
+                        </div>
+                        <div class="summary-content">
+                            <p>So basically, AI is getting really good at predicting bad weather. Scientists trained computers to spot patterns in storms, and now they can warn us about hurricanes almost a week earlier than before.</p>
+                            <p>That means more time to prepare, pack up, and stay safe. Pretty cool, right?</p>
+                        </div>
+                    </div>
+                    <div class="action-footer">
+                        <div class="tldr-icon-btn-mock"><span class="material-symbols-outlined">content_copy</span></div>
+                        <div class="tldr-icon-btn-mock"><span class="material-symbols-outlined">refresh</span></div>
+                        <div class="tldr-icon-btn-mock"><span class="material-symbols-outlined">person</span></div>
+                        <div class="tldr-icon-btn-mock"><span class="material-symbols-outlined">g_translate</span></div>
+                        <div class="tldr-icon-btn-mock"><span class="material-symbols-outlined">settings</span></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- ===== CRITIQUE ===== -->
+<section id="critique" class="section">
+    <div class="container">
+        <div class="section_badge" style="background: #e74c3c; color: white;">
+            <span class="material-symbols-outlined">rate_review</span>
+            Critique
+        </div>
+        <h2 class="section_title">critical, analyze, question</h2>
+        <p class="section_desc">Find the flaws. Question assumptions. Evaluate the arguments.</p>
+    </div>
+    <div class="container browser-mockup-container">
+        <div class="browser-window">
+            <div class="browser-header">
+                <div class="browser-dots"><span class="dot dot-red"></span><span class="dot dot-yellow"></span><span class="dot dot-green"></span></div>
+                <div class="address-bar">https://www.economist.com/2026/06/15/global-renewable-energy</div>
+                <img src="icon.svg" class="icon-sm">
+            </div>
+            <div class="browser-content">
+                <div class="web-page">
+                    <span class="article-category">Environment</span>
+                    <h1 class="article-title">Global Renewable Energy Targets: Ambitious or Unrealistic?</h1>
+                    <p class="article-subhead">Countries are racing to hit net-zero. The numbers tell a different story.</p>
+                    <div class="article-body">
+                        <p>Current projections show most countries will miss their 2030 targets by a wide margin.</p>
+                        <p>Infrastructure and funding gaps remain the largest barriers.</p>
+                    </div>
+                </div>
+                <div class="tldr-sidebar">
+                    <div class="sidebar-header">
+                        <div class="header-brand"><img src="icon.svg" alt="tl;dr"> tl;dr</div>
+                        <span class="material-symbols-outlined close-btn">close</span>
+                    </div>
+                    <div class="summary-container">
+                        <div class="profession-tabs">
+                            <div class="mode-tab"><span class="material-symbols-outlined">density_small</span>Skimmer</div>
+                            <div class="mode-tab"><span class="material-symbols-outlined">science</span>Researcher</div>
+                            <div class="mode-tab"><span class="material-symbols-outlined">analytics</span>Analyst</div>
+                            <div class="mode-tab"><span class="material-symbols-outlined">face</span>Teenager</div>
+                            <div class="mode-tab active" style="background: #e74c3c; color: white;"><span class="material-symbols-outlined" style="color: white;">rate_review</span>Critique</div>
+                            <div class="mode-tab"><span class="material-symbols-outlined">business_center</span>Executive</div>
+                        </div>
+                        <div class="summary-content">
+                            <p><strong>What's being claimed:</strong> Countries are committed to net-zero targets by 2030.</p>
+                            <p><strong>What's missing:</strong> Concrete data on how these targets will be funded. No infrastructure assessment.</p>
+                            <p><strong>Assumptions questioned:</strong> The article assumes political will remains steady. History suggests energy policy shifts with administrations.</p>
+                            <p><strong>Conclusion:</strong> While ambitious, current projections show most countries will miss their targets due to funding and infrastructure gaps.</p>
+                        </div>
+                    </div>
+                    <div class="action-footer">
+                        <div class="tldr-icon-btn-mock"><span class="material-symbols-outlined">content_copy</span></div>
+                        <div class="tldr-icon-btn-mock"><span class="material-symbols-outlined">refresh</span></div>
+                        <div class="tldr-icon-btn-mock"><span class="material-symbols-outlined">person</span></div>
+                        <div class="tldr-icon-btn-mock"><span class="material-symbols-outlined">g_translate</span></div>
+                        <div class="tldr-icon-btn-mock"><span class="material-symbols-outlined">settings</span></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- ===== EXECUTIVE ===== -->
+<section id="executive" class="section section--gray">
+    <div class="container">
+        <div class="section_badge" style="background: #2c3e50; color: white;">
+            <span class="material-symbols-outlined">business_center</span>
+            Executive
+        </div>
+        <h2 class="section_title">actionable, what to do</h2>
+        <p class="section_desc">Decisions. Strategy. Next steps. No fluff. Just action.</p>
+    </div>
+    <div class="container browser-mockup-container">
+        <div class="browser-window">
+            <div class="browser-header">
+                <div class="browser-dots"><span class="dot dot-red"></span><span class="dot dot-yellow"></span><span class="dot dot-green"></span></div>
+                <div class="address-bar">https://www.ft.com/2026/06/15/european-tech-funding-report</div>
+                <img src="icon.svg" class="icon-sm">
+            </div>
+            <div class="browser-content">
+                <div class="web-page">
+                    <span class="article-category">Finance</span>
+                    <h1 class="article-title">European Tech Funding Surges 22% in Q2 2026</h1>
+                    <p class="article-subhead">AI and climate tech lead the investment wave. UK and Germany top destinations.</p>
+                    <div class="article-body">
+                        <p>Venture capital firms are pouring money into European startups at a record pace.</p>
+                        <p>Seed and Series A rounds saw the largest increase in deal volume.</p>
+                    </div>
+                </div>
+                <div class="tldr-sidebar">
+                    <div class="sidebar-header">
+                        <div class="header-brand"><img src="icon.svg" alt="tl;dr"> tl;dr</div>
+                        <span class="material-symbols-outlined close-btn">close</span>
+                    </div>
+                    <div class="summary-container">
+                        <div class="profession-tabs">
+                            <div class="mode-tab"><span class="material-symbols-outlined">density_small</span>Skimmer</div>
+                            <div class="mode-tab"><span class="material-symbols-outlined">science</span>Researcher</div>
+                            <div class="mode-tab"><span class="material-symbols-outlined">analytics</span>Analyst</div>
+                            <div class="mode-tab"><span class="material-symbols-outlined">face</span>Teenager</div>
+                            <div class="mode-tab"><span class="material-symbols-outlined">rate_review</span>Critique</div>
+                            <div class="mode-tab active" style="background: #2c3e50; color: white;"><span class="material-symbols-outlined" style="color: white;">business_center</span>Executive</div>
+                        </div>
+                        <div class="summary-content">
+                            <p><strong>Key takeaway:</strong> European tech funding up 22% in Q2 2026. AI and climate tech lead.</p>
+                            <p><strong>Action items:</strong></p>
+                            <ul>
+                                <li>Review portfolio allocation for European exposure</li>
+                                <li>Consider UK and Germany for expansion targets</li>
+                                <li>Prioritize AI and climate sectors for Q3 investment</li>
+                            </ul>
+                            <p><strong>Next steps:</strong> Schedule strategy review with investment team. Prepare Q3 funding roadmap.</p>
+                        </div>
+                    </div>
+                    <div class="action-footer">
+                        <div class="tldr-icon-btn-mock"><span class="material-symbols-outlined">content_copy</span></div>
+                        <div class="tldr-icon-btn-mock"><span class="material-symbols-outlined">refresh</span></div>
+                        <div class="tldr-icon-btn-mock"><span class="material-symbols-outlined">person</span></div>
+                        <div class="tldr-icon-btn-mock"><span class="material-symbols-outlined">g_translate</span></div>
+                        <div class="tldr-icon-btn-mock"><span class="material-symbols-outlined">settings</span></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- ===== GMAIL ===== -->
+<section id="gmail" class="section">
+    <div class="container">
+        <div class="section_badge" style="background: #ea4335; color: white;">
+            <span class="material-symbols-outlined">mail</span>
+            Gmail
+        </div>
+        <h2 class="section_title">emails? summarized.<br>action items? extracted.</h2>
+        <p class="section_desc">Get straight to what matters. Action items and key takeaways from any email.</p>
+    </div>
+    <div class="container browser-mockup-container">
+        <div class="browser-window">
+            <div class="browser-header">
+                <div class="browser-dots"><span class="dot dot-red"></span><span class="dot dot-yellow"></span><span class="dot dot-green"></span></div>
+                <div class="address-bar">https://mail.google.com/mail/u/0/#inbox</div>
+                <img src="icon.svg" class="icon-sm">
+            </div>
+            <div class="browser-content">
+                <div class="web-page" style="background: #f6f6f6; padding: 20px;">
+                    <div style="background: white; border-radius: 8px; padding: 24px; box-shadow: 0 1px 3px rgba(0,0,0,0.1);">
+                        <div style="display: flex; justify-content: space-between; margin-bottom: 16px;">
+                            <div>
+                                <div style="font-weight: 700; font-size: 16px;">Q4 Product Roadmap Review</div>
+                                <div style="font-size: 13px; color: #5f6368;">From: Priya Sharma &lt;priya@company.com&gt;</div>
+                            </div>
+                            <div style="font-size: 12px; color: #5f6368;">11:42 AM</div>
+                        </div>
+                        <div style="border-top: 1px solid #e2e8f0; padding-top: 16px; font-size: 14px; line-height: 1.6; color: #333;">
+                            <p>Hi team,</p>
+                            <p>Following our sync yesterday, here are the key deliverables for Q4:</p>
+                            <ul style="padding-left: 20px; margin: 8px 0;">
+                                <li>Finalize product requirements doc by July 15</li>
+                                <li>Design review scheduled for July 22</li>
+                                <li>Engineering kickoff expected July 29</li>
+                            </ul>
+                            <p>Please confirm your team's availability for the design review session.</p>
+                            <p>Best,<br>Priya</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="tldr-sidebar">
+                    <div class="sidebar-header">
+                        <div class="header-brand"><img src="icon.svg" alt="tl;dr"> tl;dr</div>
+                        <span class="material-symbols-outlined close-btn">close</span>
+                    </div>
+                    <div class="summary-container">
+                        <div class="profession-tabs">
+                            <div class="mode-tab"><span class="material-symbols-outlined">density_small</span>Skimmer</div>
+                            <div class="mode-tab"><span class="material-symbols-outlined">science</span>Researcher</div>
+                            <div class="mode-tab"><span class="material-symbols-outlined">analytics</span>Analyst</div>
+                            <div class="mode-tab"><span class="material-symbols-outlined">face</span>Teenager</div>
+                            <div class="mode-tab"><span class="material-symbols-outlined">rate_review</span>Critique</div>
+                            <div class="mode-tab active" style="background: #ea4335; color: white;"><span class="material-symbols-outlined" style="color: white;">mail</span>Gmail</div>
+                        </div>
+                        <div class="summary-content">
+                            <h3>Action Items:</h3>
+                            <ul>
+                                <li>Finalize product requirements doc by July 15</li>
+                                <li>Design review scheduled for July 22</li>
+                                <li>Engineering kickoff expected July 29</li>
+                                <li>Confirm team availability for design review</li>
+                            </ul>
+                            <h3>Key Takeaways:</h3>
+                            <ul>
+                                <li>Q4 product roadmap finalized</li>
+                                <li>Design review session needs attendance confirmation</li>
+                                <li>Engineering kickoff planned for end of July</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="action-footer">
+                        <div class="tldr-icon-btn-mock"><span class="material-symbols-outlined">content_copy</span></div>
+                        <div class="tldr-icon-btn-mock"><span class="material-symbols-outlined">refresh</span></div>
+                        <div class="tldr-icon-btn-mock"><span class="material-symbols-outlined">person</span></div>
+                        <div class="tldr-icon-btn-mock"><span class="material-symbols-outlined">g_translate</span></div>
+                        <div class="tldr-icon-btn-mock"><span class="material-symbols-outlined">settings</span></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- ===== SETTINGS ===== -->
 <section id="settings" class="section section--gray">
     <div class="container">
-
         <div class="section_badge" style="background: var(--green); color: white;">
             <span class="material-symbols-outlined">settings</span>
-            Make It Yours
+            Customize
         </div>
- 
-
         <div class="section_header">
-            <h2 class="section_title">
-                your settings? saved.<br>
-                font size? you choose.<br>
-                language? you pick.
-            </h2>
-            <p class="section_desc">Font size, summary density, and language — your preferences stick across every page.</p>
+            <h2 class="section_title">your tl;dr.<br>your way.</h2>
+            <p class="section_desc">Language, font size, and summarizer preferences — all in one place.</p>
         </div>
     </div>
     <div class="container">
-        <div class="showcase-card">
-            <div class="feature-grid">
-                <div class="feature-item full-width">
-                    <h2><span class="material-symbols-outlined">equalizer</span> Persona</h2>
-                    <p class="feature-desc">Select a persona to deliver your news. From professional to fabulous, pick a voice that keeps you engaged.</p>
-                    <div class="personality-row">
-                        <div class="voice-card active">
-                            <span class="material-symbols-outlined">speaker_notes</span>
-                            <span class="voice-name">Professional</span>
+        <div class="settings-card">
+            <div class="settings-grid">
+                <div class="settings-col">
+                    <div class="settings-group">
+                        <div class="settings-label">
+                            <span class="material-symbols-outlined">g_translate</span>
+                            <span>Summary Language</span>
                         </div>
-                        <div class="voice-card">
-                            <span class="material-symbols-outlined" style="color: var(--blue);">crown</span>
-                            <span class="voice-name">RuPaul</span>
-                        </div>
-                        <div class="voice-card">
-                            <span class="material-symbols-outlined" style="color: var(--red);">fort</span>
-                            <span class="voice-name">Trump</span>
-                        </div>
-                    </div>
-                </div>
-                <div class="feature-item">
-                    <h2><span class="material-symbols-outlined">g_translate</span> Language</h2>
-                    <p class="feature-desc">Native support for multiple languages with intelligent formatting.</p>
-                    <span class="label-caps">Choose Language</span>
-                    <div class="select-wrapper">
-                        <select class="bulky-select">
-                            <option>🇺🇸 English (Default)</option>
-                            <option>🇸🇦 العربية</option>
-                            <option>🇪🇸 Español</option>
-                            <option>🇮🇹 Italiano</option>
-                            <option>🇫🇷 Français</option>
+                        <div class="settings-desc">Choose language. Arabic auto-enables RTL.</div>
+                        <select class="settings-select" id="demo-language">
+                            <option value="english">🇺🇸 English</option>
+                            <option value="arabic">🇸🇦 العربية</option>
+                            <option value="spanish">🇪🇸 Español</option>
+                            <option value="italian">🇮🇹 Italiano</option>
+                            <option value="french">🇫🇷 Français</option>
                         </select>
                     </div>
-                </div>
-                <div class="feature-item">
-                    <h2><span class="material-symbols-outlined">text_fields</span> Readability</h2>
-                    <p class="feature-desc">Adjust typography for your comfort. Summaries built for your eyes.</p>
-                    <div class="font-ui">
-                        <button class="font-btn"><span class="material-symbols-outlined">text_decrease</span></button>
-                        <span class="size-display">18px</span>
-                        <button class="font-btn"><span class="material-symbols-outlined">text_increase</span></button>
+                    <div class="settings-group" style="opacity: 0.6;">
+                        <div class="settings-label">
+                            <span class="material-symbols-outlined">format_textdirection_l_to_r</span>
+                            <span>Text Direction</span>
+                        </div>
+                        <div class="settings-desc">Auto-set based on language. Arabic = RTL.</div>
+                        <div style="display: flex; gap: 16px; font-size: 14px; color: var(--dark);">
+                            <span>🔹 LTR (default)</span>
+                            <span>🔸 RTL (Arabic)</span>
+                        </div>
                     </div>
                 </div>
+                <div class="settings-col">
+                    <div class="settings-group">
+                        <div class="settings-label">
+                            <span class="material-symbols-outlined">text_fields</span>
+                            <span>Font Size</span>
+                        </div>
+                        <div class="settings-desc">Adjust text size inside the summary panel (8-24px).</div>
+                        <div class="font-controls-demo">
+                            <button class="font-btn-demo" id="demo-font-dec">
+                                <span class="material-symbols-outlined">text_decrease</span>
+                            </button>
+                            <span class="font-size-demo" id="demo-font-size">14px</span>
+                            <button class="font-btn-demo" id="demo-font-inc">
+                                <span class="material-symbols-outlined">text_increase</span>
+                            </button>
+                        </div>
+                        <div class="font-preview-demo" id="demo-font-preview" style="font-size: 14px;">
+                            The quick brown fox jumps over the lazy dog.
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="settings-group full-width" style="margin-top: 24px; border-top: 1px solid var(--gray); padding-top: 24px;">
+                <div class="settings-label">
+                    <span class="material-symbols-outlined">person</span>
+                    <span>Summarise as...</span>
+                </div>
+                <div class="settings-desc">Choose how you want the summary to be written.</div>
+                <div class="profession-grid-demo">
+                    <div class="prof-option active" data-prof="skimmer">
+                        <span class="material-symbols-outlined">density_small</span>
+                        <span>Skimmer</span>
+                        <span class="prof-sub">brief, headline only</span>
+                    </div>
+                    <div class="prof-option" data-prof="researcher">
+                        <span class="material-symbols-outlined">science</span>
+                        <span>Researcher</span>
+                        <span class="prof-sub">factual, objective</span>
+                    </div>
+                    <div class="prof-option" data-prof="analyst">
+                        <span class="material-symbols-outlined">analytics</span>
+                        <span>Analyst</span>
+                        <span class="prof-sub">detailed, full context</span>
+                    </div>
+                    <div class="prof-option" data-prof="teenager">
+                        <span class="material-symbols-outlined">face</span>
+                        <span>Teenager</span>
+                        <span class="prof-sub">simple, no jargon</span>
+                    </div>
+                    <div class="prof-option" data-prof="critique">
+                        <span class="material-symbols-outlined">rate_review</span>
+                        <span>Critique</span>
+                        <span class="prof-sub">critical, analyze</span>
+                    </div>
+                    <div class="prof-option" data-prof="executive">
+                        <span class="material-symbols-outlined">business_center</span>
+                        <span>Executive</span>
+                        <span class="prof-sub">actionable, what to do</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="settings-actions-demo">
+                <button class="save-btn-demo">
+                    <span class="material-symbols-outlined">save</span>
+                    Save
+                </button>
+                <span class="save-status-demo" id="demo-status">Saved ✓</span>
             </div>
         </div>
     </div>
 </section>
 
-<!-- Footer -->
+<!-- ===== FOOTER ===== -->
 <footer class="footer" id="footer">
     <div class="container footer_inner">
         <div class="footer-group">
@@ -407,7 +646,7 @@
                     <span>tldr</span>
                 </a>
             </div>
-                <a class="footer_links email hover" href="mailto:info@tl-dr.store">info@tl-dr.store</a>
+            <a class="footer_links email" href="mailto:info@tl-dr.store">info@tl-dr.store</a>
             <div class="footer_credit">
                 <br><br>© 2026 
                 <a href="https://skabajah.github.io/" target="_blank">Shadi Kabajah</a>
@@ -438,7 +677,59 @@
     </div>
 </footer>
 
-<!-- Google tag (gtag.js) -->
+<!-- SCRIPTS -->
+<script>
+    // Font size demo
+    const fontSizeDisplay = document.getElementById('demo-font-size');
+    const fontPreview = document.getElementById('demo-font-preview');
+    let demoFontSize = 14;
+
+    document.getElementById('demo-font-dec').addEventListener('click', () => {
+        if (demoFontSize > 8) {
+            demoFontSize -= 2;
+            fontSizeDisplay.textContent = demoFontSize + 'px';
+            fontPreview.style.fontSize = demoFontSize + 'px';
+        }
+    });
+
+    document.getElementById('demo-font-inc').addEventListener('click', () => {
+        if (demoFontSize < 24) {
+            demoFontSize += 2;
+            fontSizeDisplay.textContent = demoFontSize + 'px';
+            fontPreview.style.fontSize = demoFontSize + 'px';
+        }
+    });
+
+    // Profession selector demo
+    document.querySelectorAll('.prof-option').forEach(el => {
+        el.addEventListener('click', () => {
+            document.querySelectorAll('.prof-option').forEach(p => p.classList.remove('active'));
+            el.classList.add('active');
+            document.getElementById('demo-status').textContent = 'Saved ✓';
+            setTimeout(() => {
+                document.getElementById('demo-status').textContent = '';
+            }, 3000);
+        });
+    });
+
+    // Language change demo
+    document.getElementById('demo-language').addEventListener('change', function() {
+        document.getElementById('demo-status').textContent = 'Saved ✓';
+        setTimeout(() => {
+            document.getElementById('demo-status').textContent = '';
+        }, 3000);
+    });
+
+    // Save button demo
+    document.querySelector('.save-btn-demo').addEventListener('click', () => {
+        document.getElementById('demo-status').textContent = 'Saved ✓';
+        setTimeout(() => {
+            document.getElementById('demo-status').textContent = '';
+        }, 3000);
+    });
+</script>
+
+<!-- Google tag -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-SD2NVV5C39"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
