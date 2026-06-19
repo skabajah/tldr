@@ -913,9 +913,8 @@ body { color: var(--dark); }
     .action-footer .icon-btn .material-symbols-outlined { color: #888; }
     .context-menu { background: #2a2a2a; border-color: #444; }
     .context-menu .menu-item { color: var(--gray-light); }
-    .context-menu .menu-item.active { background: var(--yellow); 
-        /*color: white; */
-    }
+    .context-menu .menu-item.active { background: var(--yellow); color: black;}
+    .context-menu .menu-item.active img { filter: brightness(0.5); }
     .context-menu .divider { border-color: #444; }
     .gmail { background: #2a2a2a; border-color: #444; }
     .gmail-main { background: #2a2a2a; }
