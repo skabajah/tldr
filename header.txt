@@ -1,9 +1,9 @@
 /**
- * tl;dr | spill the tea ..
+ * tl;dr | too long ; didn’t read
  * 
- * Version:   5.1
+ * Version:   5.2
  * Created:   2025-07-02
- * Updated:   2026-06-18
+ * Updated:   2026-06-19
  * Author:    Shadi Kabajah
  * 
  * COPYRIGHT NOTICE:
