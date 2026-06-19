@@ -717,7 +717,7 @@ body { color: var(--dark); }
     letter-spacing: 0.1em;
     margin-bottom: 2px;
     opacity: 0.6;
-    text-align: left;
+    text-align: center;
 }
 .footer_brand {
     /*display: flex;*/
@@ -744,6 +744,7 @@ body { color: var(--dark); }
     opacity: 0.8;
     padding: 4px 8px;
     width: fit-content;
+    place-self: anchor-center;
 }
 .footer_links a:hover {
     background: var(--yellow);
