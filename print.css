@@ -159,7 +159,7 @@
     border-radius: 8px !important;
     width: 200px !important;
     padding: 6px !important;
-    box-shadow: 0 4px 12px rgba(0,0,0,0.1) !important;
+    box-shadow: none !important;
     z-index: 10 !important;
   }
 
@@ -235,3 +235,8 @@ img.icon-md {
   {
     display: none !important;
   }
+
+* {
+      box-shadow: none !important;
+
+}
