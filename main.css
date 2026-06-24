@@ -556,7 +556,7 @@ body { color: var(--dark); }
     font-weight: 500;
     color: #666;
 }
-.lang-btn.active {
+.lang-btn.active, .lang-btn:hover {
     border-color: var(--yellow);
     background: var(--yellow-light);
     color: var(--dark);
