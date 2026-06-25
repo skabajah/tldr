@@ -900,7 +900,6 @@ body { color: var(--dark); }
     align-items: center;
     gap: 8px;
     text-decoration: none;
-    /*color: #0070ba;*/
     color: #a07804;
     font-weight: 600;
     font-size: 15px;
