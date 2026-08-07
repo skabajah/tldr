@@ -21,11 +21,13 @@
 
 ## 🔧 Installation
 
-### Chrome/Chromium Browsers (Edge, Brave, Opera, etc.)
-[Add to Chrome](https://your-chrome-store-link)
+### Chrome / Chromium Browsers
+[Add to Chrome](https://tl-dr.store/chrome)
+
+*Works with Edge, Brave, Opera, and all Chromium-based browsers*
 
 ### Firefox
-[Add to Firefox](https://your-firefox-addon-link)
+[Add to Firefox](https://tl-dr.store/firefox)
 
 ## 🎯 How to Use
 
