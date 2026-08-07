@@ -29,7 +29,7 @@
 ### Firefox
 [Add to Firefox](https://tl-dr.store/firefox)
 
-## 🎯 How to Use
+## How to Use
 
 1. **Install** the extension from your browser's store
 2. **Click** the tl;dr icon in your toolbar to open the sidebar
