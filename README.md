@@ -1,4 +1,4 @@
-# <img src="https://tl-dr.store/icon.svg" height="40" style="vertical-align: middle;"> tl;dr 
+# <h1 style="vertical-align: middle;"><img src="https://tl-dr.store/icon.svg" height="40"> tl;dr</h1>
 *AI-Powered Text Summarizer*
 
 [Homepage](https://tl-dr.store/)
