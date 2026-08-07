@@ -1,5 +1,7 @@
 # tl;dr - AI-Powered Text Summarizer
 
+[Homepage](https://tl-dr.store/)
+
 ## Overview
 
 **tl;dr** (too long; didn't read) is an AI-powered browser extension that instantly summarizes articles, emails, and any text content using Groq/Llama 3. Available for Chrome, Firefox, and all Chromium-based browsers.
