@@ -36,7 +36,7 @@
 3. **Right-click** on selected text and choose "tl;dr this"
 4. **Adjust** summary tone and language in settings
 
-## 💻 Development
+## Development
 
 This repository contains the landing page and promotional website for the tl;dr browser extension.
 
