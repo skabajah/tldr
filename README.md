@@ -1,10 +1,10 @@
 # tl;dr - AI-Powered Text Summarizer
 
-## 📝 Overview
+## Overview
 
 **tl;dr** (too long; didn't read) is an AI-powered browser extension that instantly summarizes articles, emails, and any text content using Groq/Llama 3. Available for Chrome, Firefox, and all Chromium-based browsers.
 
-## ✨ Features
+## Features
 
 - **Sidebar Summarization** - Click the toolbar icon to open a sidebar and summarize any page instantly
 - **Right-Click Context Menu** - Select text, right-click, and get a summary without leaving the page
