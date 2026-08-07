@@ -57,16 +57,16 @@ This repository contains the landing page and promotional website for the tl;dr 
 - Google Fonts  
 - Material Symbols
 
-## 🤝 Support
+## Support
 
 - **Email**: info@tl-dr.store
 - **Buy me a coffee**: [PayPal](https://paypal.me/skabajah)
 
-## 📄 License
+## License
 
 © 2026 S. Kabajah. All rights reserved.
 
-## 🔗 Links
+## Links
 
 - [Privacy Policy](privacy.html)
 - [Terms of Service](terms.html)
