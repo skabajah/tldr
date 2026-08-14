@@ -1126,5 +1126,13 @@ body { color: var(--dark); }
     .github-section { background: #2a2a2a;   }
     .github-text { color: #aaa;  }
 
+    /* models */ 
+    .model-card { background: #2a2a2a;   }
+    .model-card p {color: #aaa;}
+
+    /* privacy-banner */ 
+    .privacy-banner { background: #2a2a2a;   }
+    .privacy-inner span { color: #aaa;  }
+
 }
 
