@@ -22,6 +22,7 @@
     --blue: #7498d5;
     --red: #dd7970;
     --green: #7fa171;
+    --purple: #b880b8;
     --dark: #202124;
     --gray-light: #f8fafc;
     --gray: #e2e8f0;
@@ -173,8 +174,15 @@ body { color: var(--dark); }
 .hero_soon { margin-top: 0.5rem; font-size: 0.75rem; opacity: 55%; letter-spacing: 0.1em; text-transform: uppercase; }
 
 /* Sections */
-.section { padding: 6rem 1rem; }
-.section--gray { background: var(--gray-light); border-top: 1px solid var(--gray); border-bottom: 1px solid var(--gray); }
+.section { 
+    padding: 6rem 1rem; 
+    border-bottom: 1px solid var(--gray);
+}
+.section--gray { 
+    background: var(--gray-light); 
+    border-top: 1px solid var(--gray); 
+    border-bottom: 1px solid var(--gray); 
+}
 .section_badge {
     display: inline-flex;
     align-items: center;
@@ -975,6 +983,73 @@ body { color: var(--dark); }
     text-align: center;
 }
  
+
+/* ===== AI MODELS ===== */
+#models { 
+    border-bottom: 1px solid var(--gray);
+ }
+.models-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    gap: 16px;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.model-card {
+    text-align: center;
+    padding: 20px;
+    background: var(--gray-light);
+    border-radius: 8px;
+}
+
+.model-card h4 {
+    margin: 0 0 4px 0;
+    font-size: 16px;
+}
+
+.model-card p {
+    font-size: 13px;
+    color: #555;
+    margin: 0;
+}
+
+/* ===== PRIVACY BANNER ===== */
+.privacy-banner {
+    padding: 20px 0;
+    background: var(--gray-light);
+    border-top: 1px solid #e9ecef;
+    border-bottom: 1px solid #e9ecef;
+}
+
+.privacy-inner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.privacy-inner .material-symbols-outlined {
+    font-size: 24px;
+    color: var(--green);
+}
+
+.privacy-inner span {
+    font-size: 14px;
+    color: #333;
+}
+
+.privacy-inner a {
+    color: var(--blue);
+    font-size: 14px;
+    text-decoration: none;
+}
+
+.privacy-inner a:hover {
+    text-decoration: underline;
+}
 
 /* Dark Mode */
 @media (prefers-color-scheme: dark) {
