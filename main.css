@@ -985,9 +985,6 @@ body { color: var(--dark); }
  
 
 /* ===== AI MODELS ===== */
-#models { 
-    border-bottom: 1px solid var(--gray);
- }
 .models-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
