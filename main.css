@@ -965,8 +965,9 @@ body { color: var(--dark); }
     transform: scale(1.02);
 }
 
-.github-link .material-symbols-outlined {
-    font-size: 20px;
+img .github-link {
+    width: 24px;
+    height: 24px;
 }
 
 .github-text {
@@ -974,15 +975,7 @@ body { color: var(--dark); }
     color: #555;
     margin: 0;
 }
-
-.github-text a {
-    color: #0366d6;
-    text-decoration: none;
-}
-
-.github-text a:hover {
-    text-decoration: underline;
-}
+ 
 
 /* Dark Mode */
 @media (prefers-color-scheme: dark) {
