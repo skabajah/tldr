@@ -927,7 +927,62 @@ body { color: var(--dark); }
     margin: 0;
 }
 
+/* ===== TECH DOCS SECTION ===== */
+.github-section {
+    background: #f8f9fa;
+    padding: 20px 0;
+    border-top: 2px solid #e9ecef;
+    border-bottom: 1px solid #e9ecef;
+}
 
+.github_inner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 14px;
+    flex-wrap: wrap;
+    flex-direction: column-reverse;
+}
+
+.github-link {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: 600;
+    font-size: 15px;
+    background: #24292f;
+    padding: 8px 20px 8px 16px;
+    border-radius: 6px;
+    border: 1px solid #333;
+    transition: all 0.2s ease;
+}
+
+.github-link:hover {
+    background: #3d444d;
+    border-color: #555;
+    transform: scale(1.02);
+}
+
+.github-link .material-symbols-outlined {
+    font-size: 20px;
+}
+
+.github-text {
+    font-size: 13px;
+    color: #555;
+    margin: 0;
+}
+
+.github-text a {
+    color: #0366d6;
+    text-decoration: none;
+}
+
+.github-text a:hover {
+    text-decoration: underline;
+}
 
 /* Dark Mode */
 @media (prefers-color-scheme: dark) {
