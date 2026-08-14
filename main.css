@@ -937,7 +937,7 @@ body { color: var(--dark); }
 
 /* ===== TECH DOCS SECTION ===== */
 .github-section {
-    background: #f8f9fa;
+    /*background: #f8f9fa;*/
     padding: 20px 0;
     border: none;
 }
