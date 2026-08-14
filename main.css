@@ -881,9 +881,9 @@ body { color: var(--dark); }
 /* ===== coffee SECTION ===== */
 .coffee-section {
     background: #f8f4eb;
-    padding: 10px 0;
+    padding: 1.5rem 0;
     border-top: 2px solid var(--yellow);
-    border-bottom: 1px solid #eee;
+    border-bottom: 2px solid var(--yellow); 
 }
 
 .coffee_inner {
@@ -931,8 +931,7 @@ body { color: var(--dark); }
 .github-section {
     background: #f8f9fa;
     padding: 20px 0;
-    border-top: 2px solid #e9ecef;
-    border-bottom: 1px solid #e9ecef;
+    border: none;
 }
 
 .github_inner {
@@ -952,10 +951,9 @@ body { color: var(--dark); }
     color: #ffffff;
     font-weight: 600;
     font-size: 15px;
-    background: #24292f;
-    padding: 8px 20px 8px 16px;
-    border-radius: 6px;
-    border: 1px solid #333;
+    background: #565656;
+    padding: 8px;
+    border-radius: 4px;
     transition: all 0.2s ease;
 }
 
@@ -965,7 +963,7 @@ body { color: var(--dark); }
     transform: scale(1.02);
 }
 
-img .github-link {
+.github-link img {
     width: 24px;
     height: 24px;
 }
@@ -974,6 +972,7 @@ img .github-link {
     font-size: 13px;
     color: #555;
     margin: 0;
+    text-align: center;
 }
  
 
@@ -1043,10 +1042,14 @@ img .github-link {
     .callout { background: #3a3a2a; border-left-color: var(--yellow); }
 
     /*coffee*/
-    .coffee-section { background: #2a2a2a; border-bottom-color: #444; }
+    .coffee-section { background: #2a2a2a;   }
     .coffee-link { background: #3a3a3a; border-color: #555; color: #66b0ff; }
     .coffee-link:hover { background: #2a3a4a; border-color: #66b0ff; }
     .coffee-text { color: #aaa; }
+
+    /* github */ 
+    .github-section { background: #2a2a2a;   }
+    .github-text { color: #aaa;  }
 
 }
 
