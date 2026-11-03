@@ -8,33 +8,34 @@
 
 ## What is tl;dr?
 
-tl;dr (too long; didn't read) is a browser extension that puts AI-powered summarization at your fingertips. Whether you're reading a lengthy article, a packed inbox, or just need the gist of a document, tl;dr delivers concise, readable summaries instantly without leaving the page.
+tl;dr (too long; didn't read) is a browser extension that puts AI-powered summarization at your fingertips. Whether you're reading a lengthy article, a packed inbox, or need the gist of a document, tl;dr delivers concise, readable summaries without leaving the page.
 
 ---
 
 ## Features
 
 ### Core Experience
-- One-Click Summaries — Click the toolbar icon, get a summary instantly
-- Right-Click Any Text — Select text, right-click, and choose "tl;dr this"
-- Full-Page or Selection — Summarize entire pages or just what you highlight
-- Stays in Your Browser — No copy-pasting, no tab switching
+- **One-Click Summaries** — Click the toolbar icon, get a summary instantly
+- **Right-Click Any Text** — Select text, right-click, choose "tl;dr this"
+- **Full-Page or Selection** — Summarize entire pages or just what you highlight
+- **Stays in Your Browser** — No copy-pasting, no tab switching
 
 ### AI & Intelligence
-- Multiple AI Models — Uses Groq (llama-3.1-8b-instant), OpenAI (gpt-oss-20b), and Google Gemini via GCP
-- 6 Summary Styles — Skimmer, Researcher, Analyst, Teenager, Critique, Executive
-- 11 Languages — English, Arabic, Spanish, Italian, French, Dutch, German, Russian, Greek, Japanese, Chinese
-- RTL Support — Arabic and Hebrew auto-detect right-to-left text
+- **Multiple Models** — llama-3.1-8b-instant and gpt-oss-20b, both hosted by Groq
+- **6 Summary Styles** — Skimmer, Researcher, Analyst, Teenager, Critique, Executive
+- **11 Languages** — English, Arabic, Spanish, Italian, French, Dutch, German, Russian, Greek, Japanese, Chinese
+- **RTL Support** — Arabic auto-detects right-to-left text
 
 ### Customization
-- Font Size Control — 8-24px, adjustable anytime
-- Dark Mode — Automatically adapts to your system theme
-- Persistent Preferences — Your settings stay synced
+- **Font Size Control** — 8–24px, adjustable anytime
+- **Dark Mode** — Adapts to your system theme
+- **Persistent Preferences** — Your settings stay synced
 
 ### Productivity
-- Copy to Clipboard — One-click copy of any summary
-- Email Task Extraction — Scans emails and extracts actionable tasks
-- Works on Any Page — News, blogs, docs, emails, PDFs
+- **Copy to Clipboard** — One-click copy of any summary
+- **Email Task Extraction** — Scans emails and extracts actionable tasks
+
+> **Note on long pages:** to keep summaries fast and free, very long content is capped and may be summarized only in part. PDFs are not supported by the toolbar button; use selection-based summarization instead.
 
 ---
 
@@ -43,7 +44,7 @@ tl;dr (too long; didn't read) is a browser extension that puts AI-powered summar
 ### Chrome / Chromium
 [Add to Chrome](https://tl-dr.store/chrome)
 
-Works with Edge, Brave, Opera, Vivaldi, and all Chromium-based browsers
+Works with Edge, Brave, Opera, Vivaldi, and all Chromium-based browsers.
 
 ### Firefox
 [Add to Firefox](https://tl-dr.store/firefox)
@@ -56,44 +57,35 @@ Works with Edge, Brave, Opera, Vivaldi, and all Chromium-based browsers
 2. Click the tl;dr icon in your toolbar
 3. Read your summary instantly
 4. Right-click any text for on-demand summaries
-5. Customize your tone and language in settings
+5. Customize tone and language in settings
 
 ---
 
 ## How It Works
 
-1. Extract — The extension reads the page content or your selection
-2. Send — Text is sent to the backend API
-3. Process — Google Apps Script routes the request to the appropriate AI model
-4. Summarize — AI generates the summary (Groq, OpenAI, or Gemini)
-5. Display — The summary appears in your sidebar in milliseconds
+1. **Extract** — The extension reads the page content or your selection
+2. **Route** — Google Apps Script forwards the request to the AI model
+3. **Summarize** — A Groq-hosted model generates the summary
+4. **Display** — The summary appears in your sidebar
 
-All processing happens in real-time. No data is stored or logged.
+Processing is real-time. The extension stores no text after the summary is generated.
 
 ---
 
 ## Technology Stack
 
 ### Extension
-- Manifest V3 — Modern browser extension standard
-- Chrome Extension APIs — Side panel, context menus, storage
-- Firefox Add-on APIs — Sidebar action, content scripts
+- Manifest V3
+- Chrome Extension APIs — side panel, context menus, storage
+- Firefox Add-on APIs — sidebar action, content scripts
 
 ### Backend
-- Google Apps Script — Serverless API gateway and routing
-- Groq — Ultra-fast inference with llama-3.1-8b-instant
-- OpenAI — gpt-oss-20b model
-- Google Gemini — Via Google Cloud Platform
-
-### Frontend
-- HTML5 + CSS3 — Clean, responsive UI
-- Vanilla JavaScript — No frameworks, lightweight
-- Material Symbols — Icons
+- **Google Apps Script** — serverless API gateway and routing
+- **Groq** — model inference (llama-3.1-8b-instant, gpt-oss-20b)
 
 ---
 
 ## Project Structure
-
 ```
 /
 ├── index.html              # Landing page
@@ -139,10 +131,9 @@ All processing happens in real-time. No data is stored or logged.
 
 ## Privacy
 
-- No data stored — All processing is real-time
-- No analytics — No tracking, no cookies
-- No logging — Your text isn't saved anywhere
-- See our privacy policy — https://tl-dr.store/privacy.html
+The extension collects no analytics, telemetry, or browsing history. Selected text is sent to the AI service only to generate the summary you requested, and is not stored or logged afterwards.
+
+Full details: https://tl-dr.store/privacy.html
 
 ---
 
@@ -172,8 +163,8 @@ This is proprietary software. You may not copy, modify, distribute, or reverse-e
 
 ## Version
 
-**5.3** — Released 2026-06-19
+**5.3**
 
 ---
 
-*Made for people who don't have time to read everything.*
+*Made for people who don't have time to read everything.* 
