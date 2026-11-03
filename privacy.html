@@ -14,7 +14,7 @@
     <link rel="icon" type="image/png" sizes="32x32" href="/icon-32.png">
     <link rel="icon" type="image/png" sizes="48x48" href="/icon-48.png">
     <link rel="apple-touch-icon" sizes="180x180" href="/icon-180.png">
-    
+
     <!-- PWA / Manifest -->
     <link rel="manifest" href="/manifest.json">
     <meta name="theme-color" content="#f3d175">
@@ -38,9 +38,10 @@
 <section class="privacy-hero">
     <div class="container">
         <h1>Privacy Policy</h1>
-        <p>Created: July 2, 2025 · Last updated: May 6, 2026</p>
+        <p>Created: July 2, 2025 · Last updated: Nov 3, 2026</p>
     </div>
 </section>
+
 
 <section class="privacy-content">
     <div class="container">
@@ -49,61 +50,60 @@
                 <span class="material-symbols-outlined yellow">privacy_tip</span>
                 <h2>Privacy Policy</h2>
             </div>
-            <p>tl;dr ("the Service") respects your privacy. The Service includes our browser extension (for any browser) and Gmail add-on (for any email client). This policy explains how the Service collects, uses, and protects your information.</p>
+
+            <p>tl;dr ("the Service") includes our browser extension and Gmail add-on. This policy explains what data the Service processes and how.</p>
+
             <br>
+
             <div class="policy-block">
                 <h3>Information We Collect</h3>
-                <p>The Service only processes the text content that you select or that is visible on the active web page or open email message to generate summaries using an AI service (Llama AI via Groq API). The Service does not collect, store, or transmit any personally identifiable information, including your name, email address, or browsing history.</p>
+                <p>The Service processes only the text you select or that is visible on the active page or open email message, to generate a summary. It does not collect or store personal data such as your name, email address, or browsing history.</p>
             </div>
 
             <div class="policy-block">
                 <h3>User Data</h3>
-                <p>The Service accesses Google user data only when you explicitly grant permission via OAuth. The Service may access Gmail email content to generate summaries of email threads or individual messages you select.</p>
-                <p>Data is used exclusively to provide the text summarization you request. It is never used for training AI models, advertising, marketing, analytics, or profiling. Data is never sold or shared with third parties except as needed to provide the summary (Groq API, which also does not retain or train on your data).</p>
+                <p>The Service accesses Google user data only with your explicit permission via OAuth, and only reads the Gmail content you select. This data is used solely to generate the summary you request. It is never used for training, advertising, analytics, or profiling, and is never sold.</p>
             </div>
-            
-            <div class="policy-block">
-                <h3>How We Use Your Data</h3>
-                <p>Selected or visible text is sent securely to a Groq API endpoint for AI summarization. No data is stored permanently on our servers. We do not sell, share, or transfer your data to any third parties.</p>
-            </div>
-            
 
             <div class="policy-block">
-                <h3>Data Security & Protection</h3>
-                <p>Security procedures are in place to protect the confidentiality of your data. We use encryption to protect your information.</p>
+                <h3>Third-Party Services</h3>
+                <p>Two third-party services receive your text;</p>
                 <ul>
-                    <li><strong>Encryption in transit:</strong> TLS 1.2+ (HTTPS) for all data between your device, the Service, and Groq API.</li>
-                    <li><strong>No local storage:</strong> The Service does not store sensitive data on your device beyond the active session.</li>
-                    <li><strong>Zero Data Retention (ZDR):</strong> Groq API data collection is disabled; inputs and outputs are not logged or stored.</li>
-                    <li><strong>Minimal data exposure:</strong> Only the text you select is transmitted - never your full inbox, browsing history, or credentials.</li>
-                    <li><strong>No third-party access:</strong> Only Groq API receives your data, solely to generate the summary.</li>
+                    <li><strong>Google Apps Script: </strong>routes requests between the Service and the AI model.</li>
+                    <li><strong>Groq: </strong>hosts the AI models that generate the summary.</li>
                 </ul>
             </div>
 
-            
+            <div class="policy-block">
+                <h3>Data Security & Protection</h3>
+                <ul>
+                    <li><strong>Encryption in transit:</strong> TLS 1.2+ (HTTPS) between your device, the Service, and the AI service.</li>
+                    <li><strong>No local storage:</strong> No sensitive data is stored on your device beyond the active session.</li>
+                    <li><strong>Zero Data Retention (ZDR):</strong> Groq API data collection is disabled; inputs and outputs are not logged or stored.</li>
+                    <li><strong>Minimal data exposure:</strong> Only the text you select is transmitted.</li>
+                </ul>
+            </div>
+
             <div class="policy-block">
                 <h3>Permissions</h3>
-                <p>The Service requires permissions to access visible content in your active browser tab or open email message, and to communicate with the Groq API. For Gmail, the Service requests read-only access to email content you select - never your contacts, senders list, or account settings. The Service cannot access any Google user data without your explicit consent via the OAuth screen.</p>
+                <p>The Service requires permission to read visible content in your active tab or open email and to communicate with the AI service. For Gmail, access is read-only and limited to the content you select.</p>
             </div>
-            
+
             <div class="policy-block">
                 <h3>Data Retention & Deletion</h3>
-                <p>The Service does not retain any user data. All text sent for summarization is processed in real time and permanently discarded immediately after the summary is generated. There is no database, cache, or log that stores your data at any point. Since no data is stored, there is nothing to delete - but if you ever want to revoke Google access, you can do so from your Google Account security settings.</p>
+                <p>The Service retains no user data. Text is processed in real time and discarded immediately after the summary is generated. To revoke Google access, use your Google Account security settings.</p>
             </div>
-            
+
             <div class="policy-block">
                 <h3>Your Consent</h3>
-                <p>By using the tl;dr Service, you consent to the processing of your selected text content as described in this Privacy Policy.</p>
+                <p>By using the Service, you consent to the processing described in this policy.</p>
             </div>
 
             <div class="policy-block">
                 <h3>Contact Us</h3>
-                <p>If you have any questions about this Privacy Policy, please contact us at:</p>
-                <p><a href="mailto:info@tl-dr.store" class="link">info@tl-dr.store</a></p>
+                <p>Questions about this policy: <a href="mailto:info@tl-dr.store" class="link">info@tl-dr.store</a></p>
             </div>
         </div>
-
-     
     </div>
 </section>
 
@@ -111,25 +111,13 @@
 <footer class="footer" id="footer">
     <div class="container footer_inner">
 
-
-
         <div class="footer-group">
             <h4 class="footer-group-title">Browsers</h4>
             <div class="footer_links">
                 <a href="chrome.html" target="_blank">Chrome</a>
-                <a href="firefox.html"target="_blank">Firefox</a>
+                <a href="firefox.html" target="_blank">Firefox</a>
             </div>
         </div>
-
-        <!-- <div class="footer-group">
-            <h4 class="footer-group-title">Social</h4>
-            <div class="footer_links">
-                    <a href="redirect_linkedin.html" target="_blank">LinkedIn</a>
-                    <a href="redirect_youtube.html" target="_blank">YouTube</a>
-                    <a href="redirect_instagram.html" target="_blank">Instagram</a>
-                    <a href="redirect_facebook.html" target="_blank">Facebook</a>
-            </div>
-        </div> -->
 
         <div class="footer-group">
             <h4 class="footer-group-title">Legal</h4>
@@ -148,14 +136,13 @@
             </div>
             <a class="footer_links email" href="mailto:info@tl-dr.store">info@tl-dr.store</a>
             <div class="footer_credit">
-                <br>© 2026 
+                <br>© 2026
                 <a href="https://skabajah.github.io/" target="_blank">S. Kabajah</a>
             </div>
         </div>
 
     </div>
 </footer>
-
 
 <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-SD2NVV5C39"></script>
