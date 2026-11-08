@@ -1061,6 +1061,7 @@ body { color: var(--dark); }
     border: 1px solid var(--gray);
     margin-top: 1rem;
     padding: 1.5rem 0.5rem;
+    overflow: hidden;
 }
 
 iframe {
