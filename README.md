@@ -139,7 +139,7 @@ Full details: https://tl-dr.store/privacy.html
 
 ## Support & Feedback
 
-- Website: https://tl-dr.store/
+- Feedback Form: https://tl-dr.store/support
 - Email: info@tl-dr.store
 - Buy me a coffee: https://paypal.me/skabajah
 
