@@ -72,50 +72,6 @@ Processing is real-time. The extension stores no text after the summary is gener
 
 ---
 
-## Technology Stack
-
-### Extension
-- Manifest V3
-- Chrome Extension APIs — side panel, context menus, storage
-- Firefox Add-on APIs — sidebar action, content scripts
-
-### Backend
-- **Google Apps Script** — serverless API gateway and routing
-- **Groq** — model inference (llama-3.1-8b-instant, gpt-oss-20b)
-
----
-
-## Project Structure
-```
-/
-├── index.html              # Landing page
-├── main.css                # Website styles
-├── print.css               # Print styles
-├── icon.svg                # Extension icon
-├── manifest.webmanifest    # PWA manifest
-│
-├── extension/              # Browser extension
-│   ├── manifest.json       # Extension manifest
-│   ├── tldr-bg.js          # Background service worker
-│   ├── tldr-content.js     # Page text extraction
-│   ├── tldr-panel.html     # Sidebar UI
-│   ├── tldr-panel.js       # Sidebar logic
-│   ├── tldr-panel.css      # Sidebar styles
-│   ├── tldr-options.html   # Settings page
-│   ├── tldr-options.js     # Settings logic
-│   ├── tldr-options.css    # Settings styles
-│   ├── tldr-translations.js # 11 languages
-│   └── icons/              # 32/38/48/128px icons
-│
-├── docs/                   # Legal pages
-│   ├── privacy.html
-│   └── terms.html
-│
-└── README.md               # This file
-```
-
----
-
 ## Browser Compatibility
 
 | Browser | Version | Support |
